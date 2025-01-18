@@ -14,7 +14,7 @@ public class SuiteLoginTests {
 
     @BeforeSuite
     public void setUp()  {
-        driver = GenerateDriverAll.initDriver("chrome", "https://practicetestautomation.com/practice-test-login/");
+        driver = GenerateDriverAll.initDriver("chrome", "https://automationexercise.com/");
         actions = new Action(driver);
     }
 

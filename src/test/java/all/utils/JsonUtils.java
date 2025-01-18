@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 
 public class JsonUtils {
 
-    private static final String JSON_FILE_PATH = "./RunParams.json"; // Update this path to your JSON file
+    private static final String JSON_FILE_PATH = "./ProjectSiteParams.json"; // Update this path to your JSON file
 
     public static String readJsonFromFile(String key) {
         String value = null;
