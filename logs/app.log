@@ -21,3 +21,61 @@
 21:20:16.236 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
 21:20:16.250 [main] INFO  tests.HomePageTest - Starting the HomePage test
 21:20:17.742 [main] INFO  tests.HomePageTest - HomePage test passed
+21:43:00.991 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:43:01.155 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:43:01.165 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:43:04.928 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:43:04.943 [main] INFO  tests.HomePageTest - Starting the HomePage test
+21:43:04.958 [main] INFO  tests.HomePageTest - HomePage test passed
+21:43:06.111 [main] INFO  tests.HomePageTest - ContactUsPage test passed
+21:46:35.251 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:46:35.428 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:46:35.441 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:46:38.859 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:46:38.873 [main] INFO  tests.HomePageTest - Starting the HomePage test
+21:46:38.885 [main] INFO  tests.HomePageTest - HomePage test passed
+21:46:38.888 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
+21:46:40.580 [main] INFO  tests.HomePageTest - ContactUsPage test passed
+22:16:35.225 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:16:35.783 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:16:35.794 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:16:37.841 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:16:37.852 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:18:53.165 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:18:53.340 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:18:53.350 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:18:55.338 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:18:55.353 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:18:57.656 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage
+22:20:57.695 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:20:57.872 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:20:57.882 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:20:59.835 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:20:59.847 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:21:02.188 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage
+22:28:55.263 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:28:55.458 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:28:55.470 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:28:58.807 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:28:58.824 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:29:00.586 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage
+22:30:06.394 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:30:06.574 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:30:06.584 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:30:09.967 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:30:09.981 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:30:12.495 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200

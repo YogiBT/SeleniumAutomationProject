@@ -35,13 +35,23 @@ public class HomePageTest  {
      * Tests the home page arrival.
      */
     @Test(description = "testing the home page arrival", groups = {"regression"})
-    public void homePage()
-    {
+    public void homePage() throws Exception {
         logger.info("Starting the HomePage test");
         Assert.assertTrue(true,"simple string");
         assert actions.ariveAtHomePage();
-        logger.info("HomePage test passed");
+        Assert.assertEquals(actions.getStatusCode_homePage(),200);
+        logger.info("HomePage test passed - arrived at HomePage with status code {}", actions.getStatusCode_homePage());
 
+
+    }
+
+
+    @Test(description = "testing the contact us page arrival",dependsOnMethods = "homePage", groups = {"regression"})
+    public void ContactUsPage()
+    {
+        logger.info("Starting the ContactUsPage test");
+        assert actions.ariveAtContactUsPage();
+        logger.info("ContactUsPage test passed - arrived at ContactUsPage");
     }
 
     /**

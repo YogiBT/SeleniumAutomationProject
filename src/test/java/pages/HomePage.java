@@ -10,8 +10,8 @@ public class HomePage extends BasePage{
         super(driver, 10);
     }
 
-    public void clickSubmit() {
-        click(By.id("submit"));
+    public void clickContactUs() {
+        click(By.cssSelector(".nav > li:nth-child(8) > a:nth-child(1)"));
     }
 
     public boolean validateHome() {
@@ -19,6 +19,7 @@ public class HomePage extends BasePage{
 
         return find > 0;
     }
+
 
 
 
