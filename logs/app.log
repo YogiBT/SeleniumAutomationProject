@@ -79,3 +79,73 @@
 22:30:09.967 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
 22:30:09.981 [main] INFO  tests.HomePageTest - Starting the HomePage test
 22:30:12.495 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
+22:21:39.735 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:21:40.904 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:21:40.917 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:21:42.955 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:21:42.968 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:21:46.469 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
+22:21:46.475 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
+22:21:47.722 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:34:22.538 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:34:22.723 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:34:22.732 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:34:24.661 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:34:24.671 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:34:28.196 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
+22:34:28.207 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
+22:34:29.479 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:46:44.561 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:46:44.744 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:46:44.756 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:46:48.397 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:46:48.412 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:46:51.056 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
+22:46:51.067 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
+22:46:52.272 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:47:44.762 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:47:44.943 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:47:44.952 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:47:48.220 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:47:48.236 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:47:50.757 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
+22:47:50.768 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
+22:47:51.931 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:47:51.961 [main] INFO  tests.HomePageTest - Get in touch is visible
+22:56:34.816 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:56:34.989 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:56:34.999 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:56:36.928 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:56:36.938 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:56:40.794 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
+22:56:40.806 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
+22:56:42.381 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:56:42.412 [main] INFO  tests.HomePageTest - Get in touch is visible
+23:14:46.289 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:14:46.473 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:14:46.485 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:14:48.496 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:14:48.510 [main] INFO  tests.HomePageTest - Starting the HomePage test
+23:15:29.994 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:15:30.167 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:15:30.176 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:15:32.059 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:15:32.075 [main] INFO  tests.HomePageTest - Starting the HomePage test
+23:15:37.263 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
+23:15:37.274 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
+23:15:38.526 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
+23:15:38.558 [main] INFO  tests.HomePageTest - Get in touch is visible

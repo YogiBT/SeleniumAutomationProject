@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class HomePage extends BasePage{
 
@@ -19,6 +20,16 @@ public class HomePage extends BasePage{
 
         return find > 0;
     }
+    public void verifyHomePageURL(){
+        String currentURL = driver.getCurrentUrl();
+        Assert.assertEquals(currentURL, "https://automationexercise.com/");
+    }
+
+    public void testPageStatus() throws Exception {
+        int statusCode = getStatusCode(driver.getCurrentUrl());
+        testPageLoadStatus();
+        Assert.assertEquals(statusCode, 200);
+        }
 
 
 

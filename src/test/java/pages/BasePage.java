@@ -46,6 +46,14 @@ public class BasePage {
         return elements.size();
     }
 
+    public List<WebElement> getAllAvailableElements(By locator) {
+        // Wait for the page to load completely
+        wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+
+        // Find all elements matching the locator
+        return driver.findElements(locator);
+    }
+
     public int getStatusCode(String urlString) throws Exception {
         URL url = new URL(urlString);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -56,7 +64,7 @@ public class BasePage {
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
-    public void testPageLoadStatus() {
+    public void testPageLoadStatus() throws Exception {
         try {
 
             // Use an API request to verify the status code

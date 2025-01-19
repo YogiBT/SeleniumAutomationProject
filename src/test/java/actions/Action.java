@@ -14,8 +14,10 @@ public class Action {
         contactUsPage = new ContactUsPage(driver);
     }
 
-    public boolean ariveAtHomePage() {
+    public boolean ariveAtHomePage() throws Exception {
         homePage.testPageLoadStatus();
+        homePage.testPageStatus();
+        homePage.verifyHomePageURL();
         return (homePage.validateHome());
     }
     public int getStatusCode_homePage() throws Exception {
@@ -25,5 +27,9 @@ public class Action {
     public boolean ariveAtContactUsPage() {
         homePage.clickContactUs();
         return (contactUsPage.validateContactUs());
+    }
+    public void isGetInTouchVisble() {
+        contactUsPage.verifyContactUsPageURL();
+        contactUsPage.isGetInTouchVisble();
     }
 }

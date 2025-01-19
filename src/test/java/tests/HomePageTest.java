@@ -49,8 +49,11 @@ public class HomePageTest  {
     public void ContactUsPage()
     {
         logger.info("Starting the ContactUsPage test");
-        assert actions.ariveAtContactUsPage();
+        Assert.assertTrue(actions.ariveAtContactUsPage(),"ContactUsPage test failed - did not arrive at ContactUsPage");
         logger.info("ContactUsPage test passed - arrived at ContactUsPage");
+        actions.isGetInTouchVisble();
+        logger.info("Get in touch is visible");
+
     }
 
     /**
