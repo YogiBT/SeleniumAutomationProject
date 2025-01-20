@@ -566,3 +566,26 @@
 21:52:16.975 [main] INFO  tests.ContactUsFormPageTest - Success message displayed - 'Success! Your details have been submitted successfully.' 
 21:52:20.728 [main] INFO  tests.ContactUsFormPageTest - Going back to the home page
 21:52:20.732 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered & submmited
+22:10:33.475 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:10:33.653 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:10:33.665 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:10:36.834 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:10:36.844 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+22:10:37.743 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+22:10:38.548 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:10:38.775 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:10:40.573 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:10:40.577 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+22:10:40.607 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+22:10:40.680 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+22:10:40.714 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+22:10:40.748 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+22:10:40.805 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+22:10:40.826 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+22:10:42.898 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+22:10:42.904 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+22:10:42.916 [main] INFO  tests.ContactUsFormPageTest - Success message displayed - 'Success! Your details have been submitted successfully.' 
+22:10:46.640 [main] INFO  tests.ContactUsFormPageTest - Going back to the home page
+22:10:46.646 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered & submmited

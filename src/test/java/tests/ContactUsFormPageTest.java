@@ -10,6 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
+import utils.readFromExcel;
 
 import static utils.utilsMethods.sleep;
 
@@ -46,19 +47,14 @@ public class ContactUsFormPageTest {
     }
 
 
-    @Test(description = "testing the contact us page arrival",dependsOnMethods = "homePage", groups = {"regression"})
-    public void ContactUsPage() throws InterruptedException {
+    @Test(dataProvider = "excelData",dataProviderClass = readFromExcel.class,description = "testing the contact us page arrival",dependsOnMethods = "homePage", groups = {"regression"})
+    public void ContactUsPage(String name,String email,String subject,String message,String file) throws InterruptedException {
 
-        String name = "Jon Snow";
-        String email = "jonsnow@gmail.com";
-        String subject = "Hello from the north!";
-        String message = "I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.";
-        String file = "/Users/yogev/IdeaProjects/Automation_Project/theWall.jpg";
         logger.info("Starting the ContactUsPage test");
         Assert.assertTrue(actions.ariveAtContactUsPage(),"ContactUsPage test failed - did not arrive at ContactUsPage");
         logger.info("ContactUsPage test passed - arrived at ContactUsPage");
         actions.enterDetailsInContactUsPage(name,email,subject,message,file);
-        logger.info("All the following details have being entered & submmited");
+        logger.info("All the following details have being entered & submitted");
 
     }
 
