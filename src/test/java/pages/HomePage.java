@@ -13,7 +13,7 @@ public class HomePage extends BasePage{
     }
 
     public void clickContactUs() {
-        click(By.cssSelector(".nav > li:nth-child(8) > a:nth-child(1)"));
+        click(By.cssSelector("a[href='/contact_us']"));
     }
 
     public boolean validateHome() {
@@ -42,7 +42,7 @@ public class HomePage extends BasePage{
         }
 
 
-
-
-
+    public void clickTestCase() {
+        click(By.cssSelector("a[href='/test_cases']"));
+    }
 }

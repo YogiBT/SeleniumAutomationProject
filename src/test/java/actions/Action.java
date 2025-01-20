@@ -4,12 +4,14 @@ package actions;
 import org.openqa.selenium.WebDriver;
 import pages.ContactUsPage;
 import pages.HomePage;
+import pages.TestCasePage;
 
 import static utils.utilsMethods.sleep;
 
 public class Action {
     HomePage homePage;
     ContactUsPage contactUsPage;
+    TestCasePage testCasePage;
 
     /**
         * Constructor for the Action class.
@@ -18,6 +20,7 @@ public class Action {
     public Action(WebDriver driver) {
         homePage = new HomePage(driver);
         contactUsPage = new ContactUsPage(driver);
+        testCasePage = new TestCasePage(driver);
     }
 
     /**
@@ -68,5 +71,14 @@ public class Action {
         contactUsPage.verifySuccessMessage();
         sleep(2);
         contactUsPage.goBackHome();
+    }
+
+    /**
+        * Tests the arrival to the test case page.
+        * @return true if the test case page is reached, false otherwise
+    */
+    public boolean ariveAtTestCasePage() {
+        homePage.clickTestCase();
+        return testCasePage.verifyTestCasePageURL();
     }
 }

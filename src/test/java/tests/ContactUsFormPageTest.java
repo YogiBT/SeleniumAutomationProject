@@ -54,7 +54,7 @@ public class ContactUsFormPageTest {
      * @param message the message to enter in the contact us form
      * @param file the file to upload in the contact us form
      */
-    @Test(dataProvider = "excelData",dataProviderClass = readFromExcel.class,description = "testing the contact us page arrival",dependsOnMethods = "homePage", groups = {"regression"})
+    @Test(dataProvider = "excelData",dataProviderClass = readFromExcel.class,description = "testing the contact us page arrival",dependsOnMethods = "homePage", groups = {"testCase6","regression"})
     public void ContactUsPage(String name,String email,String subject,String message,String file) throws InterruptedException {
 
         logger.info("Starting the ContactUsPage test");
@@ -65,6 +65,16 @@ public class ContactUsFormPageTest {
 
     }
 
+    /**
+     * Tests the arrival to test case page.
+     */
+    @Test(description = "testing the arrival to test case page", groups = {"testCase7","regression"})
+    public void testCasePage() throws Exception {
+        logger.info("Opening the TestCasePage");
+        assert actions.ariveAtTestCasePage();
+        //Assert.assertEquals(actions.getStatusCode_testCasePage(),200);
+        logger.info("TestCasePage test passed - arrived at TestCasePage");
+    }
     /**
      * Cleans up the test environment by quitting the WebDriver.
      */
