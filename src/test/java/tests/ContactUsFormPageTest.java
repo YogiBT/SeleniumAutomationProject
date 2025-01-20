@@ -46,7 +46,14 @@ public class ContactUsFormPageTest {
 
     }
 
-
+    /**
+        * Tests the contact us page arrival.
+     * @param name the name to enter in the contact us form
+     * @param email the email to enter in the contact us form
+     * @param subject the subject to enter in the contact us form
+     * @param message the message to enter in the contact us form
+     * @param file the file to upload in the contact us form
+     */
     @Test(dataProvider = "excelData",dataProviderClass = readFromExcel.class,description = "testing the contact us page arrival",dependsOnMethods = "homePage", groups = {"regression"})
     public void ContactUsPage(String name,String email,String subject,String message,String file) throws InterruptedException {
 

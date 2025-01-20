@@ -19,18 +19,33 @@ public class BasePage {
     WebDriverWait wait;
     Logger logger;
 
+    /**
+     * Constructor to initialize the WebDriver and WebDriverWait.
+     *
+     * @param driver  the WebDriver instance
+     * @param timeout the timeout duration in seconds
+     */
     public BasePage(WebDriver driver, int timeout) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         this.logger = Logger.getLogger(BasePage.class.getName());
     }
-
+    /**
+     * Clicks on the element located by the given locator.
+     *
+     * @param locator the By locator of the element to be clicked
+     */
     public void click(By locator) {
         wait.until(ExpectedConditions.elementToBeClickable(locator));
         WebElement element = driver.findElement(locator);
         element.click();
     }
-
+    /**
+     * Types the given text into the element located by the given locator.
+     *
+     * @param locator the By locator of the element
+     * @param text    the text to be typed
+     */
     public void typeText(By locator, String text) {
         wait.until(ExpectedConditions.elementToBeClickable(locator));
         WebElement element = driver.findElement(locator);
