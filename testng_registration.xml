@@ -7,7 +7,7 @@
             </run>
         </groups>
         <classes>
-            <class name="tests.HomePageTest"/>
+            <class name="tests.ContactUsFormPageTest"/>
         </classes>
     </test>
 </suite>

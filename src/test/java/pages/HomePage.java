@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -20,9 +21,18 @@ public class HomePage extends BasePage{
 
         return find > 0;
     }
-    public void verifyHomePageURL(){
+    public boolean verifyHomePageURL(){
         String currentURL = driver.getCurrentUrl();
-        Assert.assertEquals(currentURL, "https://automationexercise.com/");
+        Logger logger = tests.ContactUsFormPageTest.logger;
+        try{
+            Assert.assertEquals(currentURL, "https://automationexercise.com/");
+            logger.info("Home Page URL is correct - " + currentURL);
+            return true;
+        }catch (Exception e) {
+            logger.error("Home Page URL is incorrect - " + currentURL);
+            return false;
+        }
+
     }
 
     public void testPageStatus() throws Exception {

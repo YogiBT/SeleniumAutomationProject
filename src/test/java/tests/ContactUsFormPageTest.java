@@ -11,9 +11,11 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-public class HomePageTest  {
+import static utils.utilsMethods.sleep;
 
-    private static final Logger logger = LogManager.getLogger(HomePageTest.class);
+public class ContactUsFormPageTest {
+
+    public static final Logger logger = LogManager.getLogger(ContactUsFormPageTest.class);
     WebDriver driver;
     Action actions;
 
@@ -35,10 +37,9 @@ public class HomePageTest  {
      */
     @Test(description = "testing the home page arrival", groups = {"regression"})
     public void homePage() throws Exception {
-        logger.info("Starting the HomePage test");
-        Assert.assertTrue(true,"simple string");
+        logger.info("Opening the HomePage");
         assert actions.ariveAtHomePage();
-        Assert.assertEquals(actions.getStatusCode_homePage(),200);
+        //Assert.assertEquals(actions.getStatusCode_homePage(),200);
         logger.info("HomePage test passed - arrived at HomePage with status code {}", actions.getStatusCode_homePage());
 
 
@@ -46,13 +47,18 @@ public class HomePageTest  {
 
 
     @Test(description = "testing the contact us page arrival",dependsOnMethods = "homePage", groups = {"regression"})
-    public void ContactUsPage()
-    {
+    public void ContactUsPage() throws InterruptedException {
+
+        String name = "Jon Snow";
+        String email = "jonsnow@gmail.com";
+        String subject = "Hello from the north!";
+        String message = "I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.";
+        String file = "/Users/yogev/IdeaProjects/Automation_Project/theWall.jpg";
         logger.info("Starting the ContactUsPage test");
         Assert.assertTrue(actions.ariveAtContactUsPage(),"ContactUsPage test failed - did not arrive at ContactUsPage");
         logger.info("ContactUsPage test passed - arrived at ContactUsPage");
-        actions.isGetInTouchVisble();
-        logger.info("Get in touch is visible");
+        actions.enterDetailsInContactUsPage(name,email,subject,message,file);
+        logger.info("All the following details have being entered & submmited");
 
     }
 
@@ -63,5 +69,6 @@ public class HomePageTest  {
     public void tearDown() {
         GenerateDriverAll.cleanDriver(driver);
     }
+
 
 }

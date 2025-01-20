@@ -7,7 +7,7 @@
             </run>
         </groups>
         <packages>
-            <package name="tests.HomePageTest"/>
+            <package name="tests.ContactUsFormPageTest"/>
         </packages>
     </test>
 </suite>

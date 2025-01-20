@@ -18,134 +18,551 @@
 
 21:20:14.153 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 21:20:14.162 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-21:20:16.236 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-21:20:16.250 [main] INFO  tests.HomePageTest - Starting the HomePage test
-21:20:17.742 [main] INFO  tests.HomePageTest - HomePage test passed
+21:20:16.236 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:20:16.250 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+21:20:17.742 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed
 21:43:00.991 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 21:43:01.155 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 21:43:01.165 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-21:43:04.928 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-21:43:04.943 [main] INFO  tests.HomePageTest - Starting the HomePage test
-21:43:04.958 [main] INFO  tests.HomePageTest - HomePage test passed
-21:43:06.111 [main] INFO  tests.HomePageTest - ContactUsPage test passed
+21:43:04.928 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:43:04.943 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+21:43:04.958 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed
+21:43:06.111 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed
 21:46:35.251 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 21:46:35.428 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 21:46:35.441 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-21:46:38.859 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-21:46:38.873 [main] INFO  tests.HomePageTest - Starting the HomePage test
-21:46:38.885 [main] INFO  tests.HomePageTest - HomePage test passed
-21:46:38.888 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
-21:46:40.580 [main] INFO  tests.HomePageTest - ContactUsPage test passed
+21:46:38.859 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:46:38.873 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+21:46:38.885 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed
+21:46:38.888 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:46:40.580 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed
 22:16:35.225 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:16:35.783 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:16:35.794 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:16:37.841 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:16:37.852 [main] INFO  tests.HomePageTest - Starting the HomePage test
+22:16:37.841 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:16:37.852 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
 22:18:53.165 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:18:53.340 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:18:53.350 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:18:55.338 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:18:55.353 [main] INFO  tests.HomePageTest - Starting the HomePage test
-22:18:57.656 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage
+22:18:55.338 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:18:55.353 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+22:18:57.656 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage
 22:20:57.695 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:20:57.872 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:20:57.882 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:20:59.835 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:20:59.847 [main] INFO  tests.HomePageTest - Starting the HomePage test
-22:21:02.188 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage
+22:20:59.835 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:20:59.847 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+22:21:02.188 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage
 22:28:55.263 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:28:55.458 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:28:55.470 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:28:58.807 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:28:58.824 [main] INFO  tests.HomePageTest - Starting the HomePage test
-22:29:00.586 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage
+22:28:58.807 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:28:58.824 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+22:29:00.586 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage
 22:30:06.394 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:30:06.574 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:30:06.584 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:30:09.967 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:30:09.981 [main] INFO  tests.HomePageTest - Starting the HomePage test
-22:30:12.495 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
+22:30:09.967 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:30:09.981 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+22:30:12.495 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
 22:21:39.735 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:21:40.904 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:21:40.917 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:21:42.955 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:21:42.968 [main] INFO  tests.HomePageTest - Starting the HomePage test
-22:21:46.469 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
-22:21:46.475 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
-22:21:47.722 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:21:42.955 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:21:42.968 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+22:21:46.469 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:21:46.475 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:21:47.722 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
 22:34:22.538 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:34:22.723 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:34:22.732 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:34:24.661 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:34:24.671 [main] INFO  tests.HomePageTest - Starting the HomePage test
-22:34:28.196 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
-22:34:28.207 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
-22:34:29.479 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:34:24.661 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:34:24.671 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+22:34:28.196 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:34:28.207 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:34:29.479 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
 22:46:44.561 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:46:44.744 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:46:44.756 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:46:48.397 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:46:48.412 [main] INFO  tests.HomePageTest - Starting the HomePage test
-22:46:51.056 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
-22:46:51.067 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
-22:46:52.272 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:46:48.397 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:46:48.412 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+22:46:51.056 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:46:51.067 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:46:52.272 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
 22:47:44.762 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:47:44.943 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:47:44.952 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:47:48.220 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:47:48.236 [main] INFO  tests.HomePageTest - Starting the HomePage test
-22:47:50.757 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
-22:47:50.768 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
-22:47:51.931 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
-22:47:51.961 [main] INFO  tests.HomePageTest - Get in touch is visible
+22:47:48.220 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:47:48.236 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+22:47:50.757 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:47:50.768 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:47:51.931 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:47:51.961 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
 22:56:34.816 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 22:56:34.989 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 22:56:34.999 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-22:56:36.928 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-22:56:36.938 [main] INFO  tests.HomePageTest - Starting the HomePage test
-22:56:40.794 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
-22:56:40.806 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
-22:56:42.381 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
-22:56:42.412 [main] INFO  tests.HomePageTest - Get in touch is visible
+22:56:36.928 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:56:36.938 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+22:56:40.794 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:56:40.806 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:56:42.381 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:56:42.412 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
 23:14:46.289 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 23:14:46.473 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 23:14:46.485 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-23:14:48.496 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-23:14:48.510 [main] INFO  tests.HomePageTest - Starting the HomePage test
+23:14:48.496 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:14:48.510 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
 23:15:29.994 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
 
 23:15:30.167 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
 23:15:30.176 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
-23:15:32.059 [main] INFO  tests.HomePageTest - WebDriver setup complete: chrome, https://automationexercise.com/
-23:15:32.075 [main] INFO  tests.HomePageTest - Starting the HomePage test
-23:15:37.263 [main] INFO  tests.HomePageTest - HomePage test passed - arrived at HomePage with status code 200
-23:15:37.274 [main] INFO  tests.HomePageTest - Starting the ContactUsPage test
-23:15:38.526 [main] INFO  tests.HomePageTest - ContactUsPage test passed - arrived at ContactUsPage
-23:15:38.558 [main] INFO  tests.HomePageTest - Get in touch is visible
+23:15:32.059 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:15:32.075 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+23:15:37.263 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+23:15:37.274 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+23:15:38.526 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+23:15:38.558 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:15:47.840 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:15:48.426 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:15:48.437 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:15:50.481 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:15:50.496 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+20:15:56.017 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:15:56.031 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:15:57.468 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:15:57.513 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:17:28.696 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:17:28.877 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:17:28.886 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:17:32.350 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:17:32.366 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+20:17:36.599 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:17:36.611 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:17:38.529 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:17:38.558 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:21:10.185 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:21:10.366 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:21:10.376 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:21:13.737 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:21:13.752 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+20:21:17.092 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:21:17.102 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:21:18.242 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:21:18.277 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:23:15.092 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:23:15.269 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:23:15.279 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:23:18.702 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:23:18.718 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+20:23:20.904 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:23:20.914 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:23:22.035 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:23:22.070 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:25:27.020 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:25:27.197 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:25:27.208 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:25:29.194 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:25:29.208 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+20:25:32.869 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:25:32.880 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:25:34.077 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:25:34.080 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+20:25:34.110 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:32:16.358 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:32:16.530 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:32:16.538 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:32:19.900 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:32:19.916 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+20:32:20.821 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+20:32:22.440 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:32:22.452 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:32:23.621 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:32:23.623 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+20:32:23.657 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:32:49.493 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:32:49.672 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:32:49.681 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:32:53.043 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:32:53.059 [main] INFO  tests.ContactUsFormPageTest - Starting the HomePage test
+20:43:35.137 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:43:35.298 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:43:35.307 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:43:37.235 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:43:37.252 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+20:43:39.651 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+20:43:40.456 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:43:40.467 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:43:41.710 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:43:41.713 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+20:43:41.744 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+20:46:16.462 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:46:16.637 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:46:16.647 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:46:18.621 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:46:18.631 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+20:46:20.924 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+20:46:21.714 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:46:21.730 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:46:22.827 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:46:22.830 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+20:46:22.863 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+20:48:06.652 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:48:06.834 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:48:06.846 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:48:08.799 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:48:08.810 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+20:48:11.085 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+20:48:11.509 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:48:11.523 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:48:12.625 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:48:12.628 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+20:48:12.659 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+20:48:12.744 [main] INFO  tests.ContactUsFormPageTest - Name enteredtest test
+20:48:12.744 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:49:28.443 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:49:28.621 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:49:28.634 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:49:30.638 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:49:30.647 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+20:49:32.941 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+20:49:33.778 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:49:33.791 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:49:35.746 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:49:35.749 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+20:49:35.776 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+20:49:35.869 [main] INFO  tests.ContactUsFormPageTest - Name enteredtest test
+20:49:40.874 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:56:16.469 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:56:16.649 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:56:16.660 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:56:19.972 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:56:19.988 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+20:56:20.917 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+20:56:21.716 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:56:21.719 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:56:22.822 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:56:22.824 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+20:56:22.855 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+20:56:22.936 [main] INFO  tests.ContactUsFormPageTest - Name entered - my name is
+20:56:22.966 [main] INFO  tests.ContactUsFormPageTest - Email entered - email@gmail.com
+20:56:22.994 [main] INFO  tests.ContactUsFormPageTest - Subject entered - message test
+20:56:23.016 [main] INFO  tests.ContactUsFormPageTest - Message entered - message test
+20:56:28.019 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:58:08.696 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+20:58:08.874 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:58:08.885 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:58:12.291 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:58:12.307 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+20:58:13.207 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+20:58:14.019 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:58:14.030 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:58:15.213 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:58:15.217 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+20:58:15.248 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+20:58:15.328 [main] INFO  tests.ContactUsFormPageTest - Name entered - my name is
+20:58:15.363 [main] INFO  tests.ContactUsFormPageTest - Email entered - email@gmail.com
+20:58:15.390 [main] INFO  tests.ContactUsFormPageTest - Subject entered - message test
+20:58:15.418 [main] INFO  tests.ContactUsFormPageTest - Message entered - message test
+20:58:25.423 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+21:10:35.215 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:10:35.396 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:10:35.408 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:10:37.479 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:10:37.492 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:10:39.813 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:10:40.614 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:10:40.625 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:10:41.717 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:10:41.719 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:10:41.751 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:10:41.831 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:10:41.866 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:10:41.891 [main] INFO  tests.ContactUsFormPageTest - Subject entered - asd
+21:10:41.917 [main] INFO  tests.ContactUsFormPageTest - Message entered - hello
+21:10:51.922 [main] INFO  tests.ContactUsFormPageTest - All details have being entered
+21:12:33.369 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:12:33.551 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:12:33.561 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:12:35.460 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:12:35.473 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:12:37.772 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:12:38.575 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:12:38.586 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:12:39.787 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:12:39.790 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:12:39.821 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:12:39.902 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:12:39.933 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:12:39.963 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:12:40.010 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:12:50.017 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered ->
+21:12:50.017 [main] INFO  tests.ContactUsFormPageTest - Name: Jon Snow
+21:12:50.017 [main] INFO  tests.ContactUsFormPageTest - Email: jonsnow@gmail.com
+21:12:50.018 [main] INFO  tests.ContactUsFormPageTest - Subject: Hello from the north!
+21:12:50.018 [main] INFO  tests.ContactUsFormPageTest - Message: I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:19:34.366 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:19:34.916 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:19:34.925 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:19:38.412 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:19:38.424 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:19:39.276 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:19:40.084 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:19:40.097 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:19:41.609 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:19:41.612 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:19:41.644 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:19:41.726 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:19:41.757 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:19:41.787 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:19:41.835 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:20:39.240 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:20:39.415 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:20:39.424 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:20:42.782 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:20:42.797 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:20:43.674 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:20:44.507 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:20:44.518 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:20:46.143 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:20:46.152 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:20:46.181 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:20:46.263 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:20:46.292 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:20:46.321 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:20:46.370 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:21:20.466 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:21:20.642 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:21:20.651 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:21:23.911 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:21:23.920 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:21:24.807 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:21:25.608 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:21:25.619 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:21:26.774 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:21:26.780 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:21:26.810 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:21:26.890 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:21:26.920 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:21:26.951 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:21:26.999 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:21:27.015 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+21:21:37.020 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered ->
+21:21:37.022 [main] INFO  tests.ContactUsFormPageTest - Name: Jon Snow
+21:21:37.022 [main] INFO  tests.ContactUsFormPageTest - Email: jonsnow@gmail.com
+21:21:37.022 [main] INFO  tests.ContactUsFormPageTest - Subject: Hello from the north!
+21:21:37.022 [main] INFO  tests.ContactUsFormPageTest - Message: I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:27:05.864 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:27:06.038 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:27:06.048 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:27:08.011 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:27:08.028 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:27:10.416 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:27:11.230 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:27:11.240 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:27:12.537 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:27:12.540 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:27:12.570 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:27:12.654 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:27:12.684 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:27:12.715 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:27:12.761 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:27:12.779 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+21:27:12.814 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+21:27:22.819 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered
+21:30:29.165 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:30:29.337 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:30:29.349 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:30:32.847 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:30:32.860 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:30:33.768 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:30:34.262 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:30:34.273 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:30:35.487 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:30:35.489 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:30:35.521 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:30:35.615 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:30:35.644 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:30:35.674 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:30:35.721 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:30:35.736 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+21:30:35.780 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+21:30:45.786 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered
+21:33:48.441 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:33:48.622 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:33:48.632 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:33:50.543 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:33:50.558 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:33:52.893 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:33:53.708 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:33:53.720 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:33:54.846 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:33:54.849 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:33:54.879 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:33:54.971 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:33:55.002 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:33:55.032 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:33:55.080 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:33:55.095 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+21:33:55.132 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+21:33:55.136 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+21:34:05.147 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered
+21:41:27.903 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:41:28.088 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:41:28.099 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:41:31.580 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:41:31.595 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:41:32.535 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:41:33.367 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:41:33.379 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:41:34.225 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:41:34.227 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:41:34.257 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:41:34.341 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:41:34.372 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:41:34.403 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:41:34.451 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:41:34.467 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+21:41:34.508 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+21:41:34.512 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+21:41:34.526 [main] INFO  tests.ContactUsFormPageTest - Success message displayed - Success! Your details have been submitted successfully.
+21:41:44.531 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered
+21:45:35.358 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:45:35.544 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:45:35.556 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:45:37.523 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:45:37.535 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:45:39.850 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:45:40.664 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:45:40.676 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:45:42.140 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:45:42.144 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:45:42.176 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:45:42.258 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:45:42.289 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:45:42.320 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:45:42.368 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:45:42.387 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+21:45:42.438 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+21:45:42.444 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+21:45:42.453 [main] INFO  tests.ContactUsFormPageTest - Success message displayed - 'Success! Your details have been submitted successfully.' 
+21:45:43.597 [main] INFO  tests.ContactUsFormPageTest - Going back to the home page
+21:45:53.606 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered
+21:51:05.866 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:51:06.042 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:51:06.051 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:51:09.453 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:51:09.468 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:51:09.966 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:51:10.782 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:51:10.794 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:51:12.145 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:51:12.148 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:51:12.180 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:51:12.270 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:51:12.304 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:51:12.334 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:51:12.381 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:51:12.398 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+21:51:12.435 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+21:51:12.448 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+21:51:14.484 [main] INFO  tests.ContactUsFormPageTest - Success message displayed - 'Success! Your details have been submitted successfully.' 
+21:51:18.275 [main] INFO  tests.ContactUsFormPageTest - Going back to the home page
+21:51:18.282 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered & submmited
+21:52:05.444 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+21:52:05.621 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+21:52:05.631 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+21:52:07.612 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:52:07.628 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+21:52:10.246 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+21:52:11.073 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+21:52:11.084 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+21:52:12.622 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+21:52:12.625 [main] INFO  tests.ContactUsFormPageTest - Contact Us page URL is correct - https://automationexercise.com/contact_us
+21:52:12.656 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+21:52:12.738 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+21:52:12.770 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+21:52:12.800 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+21:52:12.847 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+21:52:12.861 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+21:52:14.932 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+21:52:14.945 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+21:52:16.975 [main] INFO  tests.ContactUsFormPageTest - Success message displayed - 'Success! Your details have been submitted successfully.' 
+21:52:20.728 [main] INFO  tests.ContactUsFormPageTest - Going back to the home page
+21:52:20.732 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered & submmited
