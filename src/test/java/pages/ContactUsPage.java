@@ -27,7 +27,7 @@ public class ContactUsPage extends BasePage{
 
     }
 
-
+    // NEED TO FIX THIS
     public boolean validateContactUs() {
         int find = validateElementExists(By.cssSelector("h2.title:nth-child(2)"));
 

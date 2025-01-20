@@ -7,6 +7,7 @@ import org.testng.Assert;
 
 public class HomePage extends BasePage{
 
+    Logger logger = tests.ContactUsFormPageTest.logger;
 
     public HomePage(WebDriver driver) {
         super(driver, 10);
@@ -23,10 +24,13 @@ public class HomePage extends BasePage{
     }
     public boolean verifyHomePageURL(){
         String currentURL = driver.getCurrentUrl();
-        Logger logger = tests.ContactUsFormPageTest.logger;
         try{
             Assert.assertEquals(currentURL, "https://automationexercise.com/");
             logger.info("Home Page URL is correct - " + currentURL);
+            // Verify that the home page is visible successfully
+            String expectedTitle = "Automation Exercise";
+            String actualTitle = driver.getTitle();
+            Assert.assertEquals(actualTitle, expectedTitle, "Home page is not visible successfully");
             return true;
         }catch (Exception e) {
             logger.error("Home Page URL is incorrect - " + currentURL);

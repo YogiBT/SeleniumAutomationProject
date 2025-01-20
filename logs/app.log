@@ -645,3 +645,13 @@
 00:08:48.406 [main] INFO  tests.ContactUsFormPageTest - Success message displayed - 'Success! Your details have been submitted successfully.' 
 00:08:52.085 [main] INFO  tests.ContactUsFormPageTest - Going back to the home page
 00:08:52.088 [main] INFO  tests.ContactUsFormPageTest - All the following details have being entered & submitted
+00:15:52.220 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:15:52.393 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+00:15:52.406 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+00:15:55.767 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:15:55.782 [main] INFO  tests.ContactUsFormPageTest - Opening the TestCasePage
+00:15:55.786 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+00:15:56.926 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+00:15:57.817 [main] INFO  tests.ContactUsFormPageTest - TestCasePage test passed - arrived at TestCasePage

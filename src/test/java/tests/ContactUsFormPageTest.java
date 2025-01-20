@@ -70,7 +70,7 @@ public class ContactUsFormPageTest {
      */
     @Test(description = "testing the arrival to test case page", groups = {"testCase7","regression"})
     public void testCasePage() throws Exception {
-        logger.info("Opening the TestCasePage");
+        logger.info("Starting TestCasePage test");
         assert actions.ariveAtTestCasePage();
         //Assert.assertEquals(actions.getStatusCode_testCasePage(),200);
         logger.info("TestCasePage test passed - arrived at TestCasePage");

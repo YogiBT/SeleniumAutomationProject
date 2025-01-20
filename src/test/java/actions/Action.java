@@ -78,6 +78,7 @@ public class Action {
         * @return true if the test case page is reached, false otherwise
     */
     public boolean ariveAtTestCasePage() {
+        homePage.verifyHomePageURL();
         homePage.clickTestCase();
         return testCasePage.verifyTestCasePageURL();
     }
