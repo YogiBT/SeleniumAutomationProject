@@ -2,9 +2,7 @@ package actions;
 
 
 import org.openqa.selenium.WebDriver;
-import pages.ContactUsPage;
-import pages.HomePage;
-import pages.TestCasePage;
+import pages.*;
 
 import static utils.utilsMethods.sleep;
 
@@ -12,6 +10,8 @@ public class Action {
     HomePage homePage;
     ContactUsPage contactUsPage;
     TestCasePage testCasePage;
+    ProductDetailPage productDetailPage;
+    ViewCartPage viewCartPage;
     WebDriver driver;
 
     /**
@@ -23,6 +23,8 @@ public class Action {
         this.homePage = new HomePage(driver);
         this.contactUsPage = new ContactUsPage(driver);
         this.testCasePage = new TestCasePage(driver);
+        this.productDetailPage = new ProductDetailPage(driver);
+        this.viewCartPage = new ViewCartPage(driver);
     }
 
     /**
@@ -101,5 +103,50 @@ public class Action {
 
     public void goBackHome() {
         contactUsPage.goBackHome();
+    }
+
+    public void clickViewProduct() {
+        homePage.clickViewProduct();
+
+    }
+
+    public String verifyProductDetailsURL() {
+        return productDetailPage.getCurrentUrl();
+    }
+
+    public boolean verifyProductDetails() {
+        return productDetailPage.verifyProductDetails();
+    }
+
+    public void increaseProductQuantity(int quantity) {
+        productDetailPage.increaseProductQuantity(quantity);
+    }
+
+    public int getQuantity() {
+        //sleep(5);
+        return productDetailPage.getQuantity();
+
+    }
+
+    public void addToCart() {
+        productDetailPage.clickAddToCart();
+        //sleep(4);
+        productDetailPage.clickViewCart();
+    }
+
+    public boolean verifyViewCart() {
+        return viewCartPage.verifyViewCart();
+    }
+
+    public String getItemName() {
+        return viewCartPage.getItemName();
+    }
+
+    public String getItemDescription() {
+        return viewCartPage.getItemDescription();
+    }
+
+    public int getCartQuantity() {
+        return viewCartPage.getCartQuantity();
     }
 }

@@ -113,7 +113,9 @@ public class ContactUsFormPageTest {
     }
 
 
-
+    /**
+     * Tests the arrival to test case page.
+     */
     @Feature("Contact Us Form Page flow")
     @Story("Contact Us Form Page")
     @Description("Test to verify arrival at Contact Us Form Page")
@@ -139,6 +141,14 @@ public class ContactUsFormPageTest {
      * @param message the message to enter in the contact us form
      * @param file the file to upload in the contact us form
      */
+    @Feature("Contact Us Form Page flow")
+    @Story("Contact Us Form Page")
+    @Description("Test enter details in the contact us page and verify success message")
+    @Link("https://automationexercise.com/contact_us")
+    @Tag("contactUs")
+    @Owner("Yogev Orenshtein")
+    @Step("Enter contact us page and verify success message")
+    @Severity(SeverityLevel.NORMAL)
     @Test(dependsOnMethods = "verifyGetInTouchVisible",dataProvider = "excelData",dataProviderClass = readFromExcel.class)
     public void verifySuccessMessage(String name,String email,String subject,String message,String file) throws InterruptedException {
         logger.info("Stating to fill details in the contact us page");
@@ -149,6 +159,18 @@ public class ContactUsFormPageTest {
         logger.info("Success message is visible");
     }
 
+
+    /**
+     * Tests the contact us page arrival.
+     */
+    @Feature("Contact Us Form Page flow")
+    @Story("Contact Us Form Page")
+    @Description("Test going back home after success")
+    @Link("https://automationexercise.com/contact_us")
+    @Tag("contactUs")
+    @Owner("Yogev Orenshtein")
+    @Step("Go back home after success")
+    @Severity(SeverityLevel.NORMAL)
     @Test(dependsOnMethods = "verifySuccessMessage")
     public void goBackHome() {
         logger.info("Starting the go back home test");

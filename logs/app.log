@@ -1322,3 +1322,288 @@
 20:48:04.586 [main] INFO  tests.ContactUsFormPageTest - Success message is visible
 20:48:04.593 [main] INFO  tests.ContactUsFormPageTest - Starting the go back home test
 20:48:07.032 [main] INFO  tests.ContactUsFormPageTest - Arrived back at the home page
+20:55:00.931 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:55:00.944 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:55:03.146 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:55:03.157 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:55:03.163 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:55:05.232 [main] INFO  tests.TestCasesPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+20:55:05.267 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+20:55:07.624 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:55:07.686 [main] INFO  tests.ContactUsFormPageTest - Home page is visible, test passed.
+20:55:07.689 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+20:55:09.256 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+20:55:09.259 [main] INFO  tests.ContactUsFormPageTest - Starting the GET IN TOUCH visible test
+20:55:09.288 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+20:55:09.288 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+20:55:09.506 [main] INFO  tests.ContactUsFormPageTest - Stating to fill details in the contact us page
+20:55:09.581 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+20:55:09.616 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+20:55:09.674 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+20:55:09.735 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+20:55:09.750 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+20:55:10.818 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+20:55:10.827 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+20:55:11.833 [main] INFO  tests.ContactUsFormPageTest - Starting the verify success message test
+20:55:11.858 [main] INFO  tests.ContactUsFormPageTest - Success message is visible
+20:55:11.864 [main] INFO  tests.ContactUsFormPageTest - Starting the go back home test
+20:55:13.192 [main] INFO  tests.ContactUsFormPageTest - Arrived back at the home page
+20:55:13.197 [main] INFO  tests.TestCasesPageTest - Opening the HomePage
+20:55:14.945 [main] INFO  tests.TestCasesPageTest - HomePage test passed - arrived at HomePage with status code 200
+20:55:14.958 [main] INFO  tests.TestCasesPageTest - Home page is visible, test passed.
+20:55:14.962 [main] INFO  tests.TestCasesPageTest - Starting TestCasePage test
+20:55:14.965 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+20:55:16.686 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+20:55:17.510 [main] INFO  tests.TestCasesPageTest - TestCasePage test passed - arrived at TestCasePage
+20:59:54.161 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+20:59:54.163 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+20:59:54.163 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+20:59:54.217 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testng.xml
+
+20:59:54.389 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+20:59:54.402 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+20:59:58.400 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+21:00:22.660 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+21:00:22.744 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testng_regressionGroup.xml
+
+22:07:02.322 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:07:02.967 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:07:02.980 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:07:04.987 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:07:14.495 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:07:59.918 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:08:00.093 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:08:00.104 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:08:02.165 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:08:02.193 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:08:48.130 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:08:48.305 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:08:48.315 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:08:53.512 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:08:53.542 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:08:56.456 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:08:56.514 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:22:17.249 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:22:17.421 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:22:17.433 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:22:19.623 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:22:19.658 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:22:23.864 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:22:23.922 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:22:25.408 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:38:25.326 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:38:25.503 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:38:25.516 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:38:29.294 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:38:29.321 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:38:30.870 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:38:30.930 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:38:32.996 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:38:33.007 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:38:33.120 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:39:42.394 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:39:42.558 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:39:42.570 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:39:44.647 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:39:44.670 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:39:48.852 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:39:48.910 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:39:50.404 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:39:50.416 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:39:55.551 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:40:28.821 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:40:28.987 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:40:28.996 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:40:31.168 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:40:31.191 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:40:34.573 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:40:34.619 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:40:37.128 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:40:37.153 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:40:42.328 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:50:51.411 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:50:51.577 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:50:51.590 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:50:53.750 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:50:53.775 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:50:58.008 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:50:58.054 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:50:59.425 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:50:59.438 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:51:04.525 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:51:04.555 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+22:51:04.591 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+22:53:00.636 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:53:00.801 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:53:00.814 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:53:05.406 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:53:05.435 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:53:07.282 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:53:07.339 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:53:08.604 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:53:08.619 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:53:13.716 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:53:13.752 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+22:54:35.194 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:54:35.361 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:54:35.373 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:54:39.435 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:54:39.460 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:54:41.366 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:54:41.424 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:54:43.432 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:54:43.445 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:54:48.535 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:54:48.552 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+22:54:48.586 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+22:55:13.982 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:55:14.151 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:55:14.161 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:55:16.177 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:55:16.199 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:55:20.843 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:55:20.899 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:55:22.886 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:55:22.897 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:55:28.001 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:55:28.039 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+22:55:32.082 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+22:59:30.284 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:59:30.448 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:59:30.460 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:59:32.612 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:59:32.636 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:59:36.622 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:59:36.672 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:59:39.104 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:59:39.119 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:59:44.213 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:59:44.250 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+22:59:48.293 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+23:01:13.631 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:01:13.804 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:01:13.817 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:01:16.201 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:01:16.221 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+23:01:21.546 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+23:01:21.585 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+23:01:24.295 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+23:01:24.309 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+23:01:29.402 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+23:01:29.429 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+23:01:33.477 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+23:01:34.597 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+23:22:57.654 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:22:58.363 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:22:58.376 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:23:01.625 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:23:01.652 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+23:23:03.378 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+23:23:03.433 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+23:23:05.364 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+23:23:05.374 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+23:23:05.473 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+23:23:05.487 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+23:23:05.531 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+23:23:07.082 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+23:23:07.103 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
+23:24:23.036 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:24:23.202 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:24:23.214 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:24:25.290 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:24:25.314 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+23:24:29.059 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+23:24:29.116 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+23:24:30.399 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+23:24:30.412 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+23:24:30.513 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+23:24:30.528 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+23:24:30.570 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+23:24:32.281 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+23:24:32.298 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
+23:24:32.311 [main] INFO  tests.ProductQuantityinCartTest - Getting item description
+23:27:02.101 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:27:02.259 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:27:02.270 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:27:04.259 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:27:04.279 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+23:27:07.928 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+23:27:07.988 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+23:27:10.164 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+23:27:10.177 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+23:27:10.261 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+23:27:10.271 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+23:27:10.307 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+23:27:11.896 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+23:27:11.913 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
+23:27:11.927 [main] INFO  tests.ProductQuantityinCartTest - Getting item description
+23:30:44.083 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:30:44.250 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:30:44.261 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:30:46.359 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:30:46.380 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+23:30:49.544 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+23:30:49.610 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+23:30:51.496 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+23:30:51.509 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+23:30:51.592 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+23:30:51.621 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+23:30:51.658 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+23:30:53.188 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+23:30:53.208 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
+23:30:53.222 [main] INFO  tests.ProductQuantityinCartTest - Getting item description
+23:30:53.232 [main] INFO  tests.ProductQuantityinCartTest - Getting cart quantity
+23:33:07.642 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:33:07.809 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:33:07.820 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:33:12.576 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:33:12.603 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+23:33:13.928 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+23:33:13.987 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+23:33:15.063 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+23:33:15.077 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+23:33:15.162 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+23:33:15.173 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+23:33:15.205 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+23:33:16.919 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+23:33:16.936 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
+23:33:16.949 [main] INFO  tests.ProductQuantityinCartTest - Getting item description
+23:33:16.959 [main] INFO  tests.ProductQuantityinCartTest - Getting cart quantity

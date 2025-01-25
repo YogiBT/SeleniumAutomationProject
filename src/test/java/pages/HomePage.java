@@ -48,4 +48,9 @@ public class HomePage extends BasePage{
     public void clickTestCase() {
         click(By.cssSelector("a[href='/test_cases']"));
     }
+
+    public void clickViewProduct() {
+        click(By.cssSelector("a[href='/product_details/1'][style='color: brown;']"));
+    }
+
 }
