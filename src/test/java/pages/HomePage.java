@@ -10,6 +10,7 @@ public class HomePage extends BasePage{
     Logger logger = tests.ContactUsFormPageTest.logger;
 
     public HomePage(WebDriver driver) {
+
         super(driver, 10);
     }
 
@@ -17,12 +18,12 @@ public class HomePage extends BasePage{
         click(By.cssSelector("a[href='/contact_us']"));
     }
 
-    public boolean validateHome() {
-        int find = validateElementExists(By.cssSelector(".logo > a:nth-child(1) > img:nth-child(1)"));
-
-        return find > 0;
+    public boolean verifyHomePage() {
+        return validateElementExist(By.xpath("//a[@href='/'][contains(text(),'Home')][@style='color: orange;']"));
     }
-    public boolean verifyHomePageURL(){
+    public void verifyHomePageURL(){
+
+
         String currentURL = driver.getCurrentUrl();
         try{
             Assert.assertEquals(currentURL, "https://automationexercise.com/");
@@ -31,10 +32,8 @@ public class HomePage extends BasePage{
             String expectedTitle = "Automation Exercise";
             String actualTitle = driver.getTitle();
             Assert.assertEquals(actualTitle, expectedTitle, "Home page is not visible successfully");
-            return true;
         }catch (Exception e) {
             logger.error("Home Page URL is incorrect - " + currentURL);
-            return false;
         }
 
     }

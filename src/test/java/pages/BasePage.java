@@ -1,5 +1,12 @@
 package pages;
 
+import actions.Action;
+//import org.apache.log4j.LogManager;
+//import org.apache.log4j.Logger;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -12,12 +19,16 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
 import java.util.List;
-import java.util.logging.Logger;
+//import java.util.logging.Logger;
+
 
 public class BasePage {
+
+    private static final Logger logger = LogManager.getLogger(BasePage.class);
     WebDriver driver;
     WebDriverWait wait;
-    Logger logger;
+    Action actions;
+    //static final Logger logger = LogManager.getLogger(all.pages.BasePage.class);
 
     /**
      * Constructor to initialize the WebDriver and WebDriverWait.
@@ -28,7 +39,10 @@ public class BasePage {
     public BasePage(WebDriver driver, int timeout) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
-        this.logger = Logger.getLogger(BasePage.class.getName());
+
+        // this casuse infinite loop
+        //actions = new Action(driver);
+        //this.logger = Logger.getLogger(BasePage.class.getName());
     }
     /**
      * Clicks on the element located by the given locator.
@@ -51,6 +65,27 @@ public class BasePage {
         WebElement element = driver.findElement(locator);
         element.sendKeys(text);
     }
+
+    /**
+     * Validates if elements exist for the given locator.
+     *
+     * @param locator the By locator of the elements
+     * @return the according elements size
+     */
+    public boolean validateElementExist(By locator) {
+        // Wait for the page to load completely
+        wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+
+        // Find all elements matching the locator
+        List<WebElement> elements = driver.findElements(locator);
+        if (elements.isEmpty()) {
+            logger.error("No elements found for locator: " + locator);
+        } else {
+            logger.debug("Elements found for locator: "  + locator);
+        }
+        return !elements.isEmpty();
+    }
+
 
     public int validateElementExists(By locator) {
         // Wait for the page to load completely
@@ -79,7 +114,7 @@ public class BasePage {
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
-    public void testPageLoadStatus() throws Exception {
+    public void testPageLoadStatus() {
         try {
 
             // Use an API request to verify the status code

@@ -29,14 +29,14 @@ public class ContactUsPage extends BasePage{
 
     // NEED TO FIX THIS
     public boolean validateContactUs() {
-        int find = validateElementExists(By.cssSelector("h2.title:nth-child(2)"));
 
-        return find > 0;
+        return validateElementExist(By.cssSelector("a[href='/contact_us'][style='color: orange;']"));
+
     }
     /**
      * Verifies if the Get In Touch section is visible.
      */
-    public void isGetInTouchVisble() {
+    public String isGetInTouchVisble() {
 
         List<WebElement> elements = getAllAvailableElements(By.cssSelector("h2.title.text-center"));
         String elementText="";
@@ -50,7 +50,7 @@ public class ContactUsPage extends BasePage{
         }
         Assert.assertEquals(elementText, "GET IN TOUCH");
         logger.info("Get In Touch is visible - " + elementText);
-
+        return elementText;
     }
     /**
      * Verifies the contact us page URL.
@@ -143,17 +143,16 @@ public class ContactUsPage extends BasePage{
     /**
      * Verifies the success message.
      */
-    public void verifySuccessMessage() {
-        String successMessage = driver.findElement(By.cssSelector("div.alert.alert-success")).getText();
-        Assert.assertEquals(successMessage, "Success! Your details have been submitted successfully.");
-        logger.info("Success message displayed - '{}' " , successMessage);
+    public String verifySuccessMessage() {
+        return driver.findElement(By.cssSelector("div.alert.alert-success")).getText();
+
     }
     /**
      * Navigates back to the home page.
      */
     public void goBackHome() {
         click(By.cssSelector("a.btn.btn-success[href='/']"));
-        logger.info("Going back to the home page");
-        Assert.assertEquals(driver.getCurrentUrl(), "https://automationexercise.com/");
+        //logger.info("Going back to the home page");
+        //Assert.assertEquals(driver.getCurrentUrl(), "https://automationexercise.com/");
     }
 }

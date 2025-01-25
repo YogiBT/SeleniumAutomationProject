@@ -12,28 +12,35 @@ public class Action {
     HomePage homePage;
     ContactUsPage contactUsPage;
     TestCasePage testCasePage;
+    WebDriver driver;
 
     /**
         * Constructor for the Action class.
      * @param driver the WebDriver instance
     */
     public Action(WebDriver driver) {
-        homePage = new HomePage(driver);
-        contactUsPage = new ContactUsPage(driver);
-        testCasePage = new TestCasePage(driver);
+        this.driver = driver;
+        this.homePage = new HomePage(driver);
+        this.contactUsPage = new ContactUsPage(driver);
+        this.testCasePage = new TestCasePage(driver);
     }
 
     /**
-        * Tests the home page arrival.
-        * @return true if the home page is reached, false otherwise
-        * @throws Exception if the page load status is not successful
+     * Tests the home page arrival.
+     *
+     * @return true if the home page is reached, false otherwise
+     * @throws Exception if the page load status is not successful
      */
-    public boolean ariveAtHomePage() throws Exception {
+    public String ariveAtHomePage() throws Exception {
         homePage.testPageLoadStatus();
         //homePage.testPageStatus();
-        return homePage.verifyHomePageURL();
+        //return homePage.verifyHomePageURL();
+        return homePage.getCurrentUrl();
     }
 
+    public boolean verifyHomePage() {
+        return homePage.verifyHomePage();
+    }
     /**
         * Gets the status code of the home page.
         * @return the status code of the home page
@@ -52,6 +59,9 @@ public class Action {
         return (contactUsPage.validateContactUs());
     }
 
+    public String getInTouchVisible() {
+        return contactUsPage.isGetInTouchVisble();
+    }
     /**
         * Enters the details in the contact us page.
         * @param name the name to enter in the contact us form
@@ -62,15 +72,12 @@ public class Action {
         * @throws InterruptedException if the thread is interrupted
     */
     public void enterDetailsInContactUsPage(String name, String email,String subject ,String message,String file) throws InterruptedException {
-        contactUsPage.verifyContactUsPageURL();
-        contactUsPage.isGetInTouchVisble();
+
         contactUsPage.enterDetails(name,email,subject,message);
         contactUsPage.uploadFile(file);
-        sleep(2);
+        sleep(1);
         contactUsPage.submit();
-        contactUsPage.verifySuccessMessage();
-        sleep(2);
-        contactUsPage.goBackHome();
+        sleep(1);
     }
 
     /**
@@ -81,5 +88,18 @@ public class Action {
         homePage.verifyHomePageURL();
         homePage.clickTestCase();
         return testCasePage.verifyTestCasePageURL();
+    }
+
+    public String verifyContactPageURL() {
+        return contactUsPage.getCurrentUrl();
+    }
+
+    public String verifySuccessMessage() {
+        return contactUsPage.verifySuccessMessage();
+    }
+
+
+    public void goBackHome() {
+        contactUsPage.goBackHome();
     }
 }
