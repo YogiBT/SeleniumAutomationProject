@@ -4,6 +4,7 @@ import actions.Action;
 import all.utils.GenerateDriverAll;
 import all.utils.JsonUtils;
 import io.qameta.allure.*;
+import io.qameta.allure.testng.Tag;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -36,8 +37,16 @@ public class ProductQuantityinCartTest {
 
     /**
      * Tests the home page arrival.
-     */
 
+
+     */
+    @Feature("Product quantity in cart")
+    @Story("Product quantity in cart")
+    @Description("Test to verify the home page Page URL")
+    @Tag("productQuantity")
+    @Owner("Yogev Orenshtein")
+    @Step("Enter contact us page")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 1,description = "testing the home page arrival", groups = {"regression,testScenario13"})
     public void homePage() throws Exception {
         logger.info("Opening the HomePage");
@@ -49,6 +58,11 @@ public class ProductQuantityinCartTest {
     /**
      * Testing Verify that home page is visible successfully.
      */
+    @Story("Product quantity in cart")
+    @Owner("Yogev Orenshtein")
+    @Step("Verify home page")
+    @Description("Test to verify the home page is visible")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 2, description = "testing the Home page", groups = {"smoke"},dependsOnMethods = "homePage")
     public void verifyHomePage() {
         boolean result = actions.verifyHomePage();
@@ -60,31 +74,73 @@ public class ProductQuantityinCartTest {
         Assert.assertTrue(result, "The Home page is not visible.");
     }
 
+    /**
+     * Tests the product details URL.
+     */
+    @Story("Product quantity in cart")
+    @Description("Test to verify the product details URL")
+    @Step("Verify product details URL")
+    @Severity(SeverityLevel.CRITICAL)
+    @Link("https://automationexercise.com/product_details/1")
     @Test(dependsOnMethods = "verifyHomePage")
     public void verifyProductDetailsURL() {
         actions.clickViewProduct();
         Assert.assertEquals(actions.verifyProductDetailsURL(),"https://automationexercise.com/product_details/1");
     }
 
+    /**
+     * Tests the product details.
+     */
+    @Story("Product quantity in cart")
+    @Description("Test to verify the product details")
+    @Step("Verify product details")
+    @Severity(SeverityLevel.NORMAL)
+    @Link("https://automationexercise.com/product_details/1")
     @Test(dependsOnMethods = "verifyProductDetailsURL")
     public void verifyProductDetails() {
         Assert.assertTrue(actions.verifyProductDetails());
     }
 
+    /**
+     * Tests the initial quantity.
+     */
+    @Story("Product quantity in cart")
+    @Description("Test to verify the initial quantity")
+    @Step("Verify initial quantity")
+    @Severity(SeverityLevel.NORMAL)
     @Test(dependsOnMethods = "verifyProductDetails")
     public void verifyInitialQuantity() {
         actions.increaseProductQuantity(4);
         Assert.assertEquals(actions.getQuantity(),4);
     }
 
+
+    /**
+     * Tests the view cart.
+     */
+    @Story("Product quantity in cart")
+    @Description("Test to verify the view cart")
+    @Step("Verify view cart")
+    @Severity(SeverityLevel.NORMAL)
+    @Link("https://automationexercise.com/view_cart")
     @Test(dependsOnMethods = "verifyInitialQuantity")
     public void verifyViewCart() {
         actions.addToCart();
         Assert.assertTrue(actions.verifyViewCart());
     }
 
+    /**
+     * Tests the cart details after adding.
+     */
+    @Story("Product quantity in cart")
+    @Description("Test to verify the cart details after adding")
+    @Step("Verify cart details after adding")
+    @Severity(SeverityLevel.NORMAL)
+    @Link("https://automationexercise.com/view_cart")
+    @Tag("cartDetails")
     @Test(dependsOnMethods = "verifyViewCart")
     public void verifyCartDetailsAfterAdding() {
+
         Assert.assertEquals(actions.getItemName(),"Blue Top");
         Assert.assertEquals(actions.getItemDescription(),"Women > Tops");
         Assert.assertEquals(actions.getCartQuantity(),4);
