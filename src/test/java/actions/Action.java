@@ -149,4 +149,36 @@ public class Action {
     public int getCartQuantity() {
         return viewCartPage.getCartQuantity();
     }
+
+    public void scrollDown() {
+        homePage.scrollDown();
+        homePage.waitForCopyrightTextToBeVisible();
+    }
+
+    public boolean verifySubscriptionVisible() {
+        //sleep(2);
+        return homePage.isSubscriptionVisible();
+
+    }
+
+    public void clickUpArrow() {
+        //sleep(4);
+        homePage.clickUpArrow();
+
+        //sleep(3);
+
+    }
+
+    public boolean checkScrollLocation_HomePage(String location) {
+        return homePage.checkScrollLocation(location);
+    }
+
+    public String getMainText() {
+        return homePage.getFirstH2Text();
+        //return homePage.isMainTextVisible();
+    }
+
+    public boolean topImageIsVisible() {
+        return homePage.isTopImageVisible();
+    }
 }

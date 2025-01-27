@@ -12,12 +12,11 @@ import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-import utils.readFromExcel;
 
-@Epic("Test Cases Page - Test Scenario #7")
-public class TestCasesPageTest {
+@Epic("Search product and verify cart after login - test scenario #20")
+public class SearchAndVerifyAfterLoginTest {
 
-    public static final Logger logger = LogManager.getLogger(TestCasesPageTest.class);
+    public static final Logger logger = LogManager.getLogger(SearchAndVerifyAfterLoginTest.class);
     WebDriver driver;
     Action actions;
 
@@ -38,9 +37,17 @@ public class TestCasesPageTest {
 
     /**
      * Tests the home page arrival.
-     */
 
-    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression"})
+
+     */
+    @Feature("Search product and verify cart after login")
+    @Story("Enter home page")
+    @Description("Test to verify the home page Page URL")
+    @Tag("searchProduct")
+    @Owner("Yogev Orenshtein")
+    @Step("Enter contact us page")
+    @Severity(SeverityLevel.CRITICAL)
+    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression,testScenario13"})
     public void homePage() throws Exception {
         logger.info("Opening the HomePage");
         String url = actions.ariveAtHomePage();
@@ -51,6 +58,11 @@ public class TestCasesPageTest {
     /**
      * Testing Verify that home page is visible successfully.
      */
+    @Story("verify home page")
+    @Owner("Yogev Orenshtein")
+    @Step("Verify home page")
+    @Description("Test to verify the home page is visible")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 2, description = "testing the Home page", groups = {"smoke"},dependsOnMethods = "homePage")
     public void verifyHomePage() {
         boolean result = actions.verifyHomePage();
@@ -62,26 +74,6 @@ public class TestCasesPageTest {
         Assert.assertTrue(result, "The Home page is not visible.");
     }
 
-
-
-    /**
-     * Tests the arrival to test case page.
-     */
-    @Feature("Test Cases Page flow")
-    @Story("Test Cases Page")
-    @Description("Test to verify the Test cases Page")
-    @Link("https://automationexercise.com/test_cases")
-    @Tag("contactUs")
-    @Owner("Yogev Orenshtein")
-    @Step("Enter contact us page")
-    @Severity(SeverityLevel.CRITICAL)
-    @Test(description = "testing the arrival to test case page", groups = {"testCase7","regression"},dependsOnMethods = "verifyHomePage")
-    public void testCasePage() {
-        logger.info("Starting TestCasePage test");
-        assert actions.ariveAtTestCasePage();
-        //Assert.assertEquals(actions.getStatusCode_testCasePage(),200);
-        logger.info("TestCasePage test passed - arrived at TestCasePage");
-    }
     /**
      * Cleans up the test environment by quitting the WebDriver.
      */

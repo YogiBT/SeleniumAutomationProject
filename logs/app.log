@@ -1607,3 +1607,251 @@
 23:33:16.936 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
 23:33:16.949 [main] INFO  tests.ProductQuantityinCartTest - Getting item description
 23:33:16.959 [main] INFO  tests.ProductQuantityinCartTest - Getting cart quantity
+22:44:47.435 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:44:48.437 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+22:44:48.450 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+22:44:52.659 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:44:52.690 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+22:44:54.369 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+22:44:54.430 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+22:44:59.469 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:08:45.901 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:08:46.070 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:08:46.082 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:08:48.181 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:08:48.205 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:08:52.121 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:08:52.180 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:08:54.232 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:08:54.282 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:10:41.895 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:10:42.068 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:10:42.080 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:10:44.104 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:10:44.132 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:10:47.098 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:10:47.157 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:10:49.205 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:10:52.260 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:10:52.265 [main] INFO  tests.ScrollUpAndDownTest - Back to top arrow is visible, test passed.
+23:13:26.784 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:13:26.968 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:13:26.980 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:13:29.014 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:13:29.043 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:13:32.825 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:13:32.883 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:13:34.937 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:13:37.986 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:13:37.999 [main] INFO  tests.ScrollUpAndDownTest - Back to top scroll test, test passed.
+23:23:09.938 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:23:10.102 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:23:10.114 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:23:14.427 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:23:14.455 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:23:15.720 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:23:15.774 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:23:17.826 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:23:17.885 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:24:56.775 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:24:56.947 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:24:56.961 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:24:59.979 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:25:00.008 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:25:01.830 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:25:01.889 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:25:03.937 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:25:03.993 [main] INFO  tests.ContactUsFormPageTest - image is visible
+23:25:03.993 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:28:59.738 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:28:59.901 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:28:59.912 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:29:01.902 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:29:01.924 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:29:04.992 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:29:05.047 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:29:07.099 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:29:07.149 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:29:07.163 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:29:29.831 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:29:29.992 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:29:30.002 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:29:31.958 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:29:31.981 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:29:35.164 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:29:35.217 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:29:35.244 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:29:35.292 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:29:35.310 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:32:44.973 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:32:45.139 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:32:45.149 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:32:47.096 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:32:47.118 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:32:51.363 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:32:51.421 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:32:51.448 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:32:51.489 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:32:51.502 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:34:08.021 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:34:08.208 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:34:08.222 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:34:12.314 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:34:12.339 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:34:14.043 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:34:14.099 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:34:14.125 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:34:14.170 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:34:14.184 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:36:21.371 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:36:21.547 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:36:21.556 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:36:24.892 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:36:24.918 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:36:26.234 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:36:26.294 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:36:39.291 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:36:39.468 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:36:39.482 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:36:43.283 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:36:43.309 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:36:44.987 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:36:45.046 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:36:45.072 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:36:45.113 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:36:45.128 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:39:28.342 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:39:28.513 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:39:28.525 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:39:30.586 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:39:30.615 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:39:33.731 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:39:33.791 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:39:33.831 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:39:33.871 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:39:33.885 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:40:46.210 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:40:46.425 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:40:46.438 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:40:49.776 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:40:49.806 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:40:51.585 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:40:51.650 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:40:51.690 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:40:51.730 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:40:51.743 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:43:02.547 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:43:02.738 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:43:02.750 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:43:06.839 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:43:06.867 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:43:08.600 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:43:08.658 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:43:08.697 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:43:08.744 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:43:08.765 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:43:21.671 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:43:21.844 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:43:21.855 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:43:23.728 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:43:23.751 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:43:26.754 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:43:26.815 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:43:26.852 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:43:26.894 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:43:26.910 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:48:37.393 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:48:37.950 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:48:37.958 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:48:42.096 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:48:42.124 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:48:43.822 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:48:43.883 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:49:40.528 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:49:40.693 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:49:40.707 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:49:44.535 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:49:44.563 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:49:46.333 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:49:46.398 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:49:46.435 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:49:46.490 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:49:46.519 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:49:46.520 [main] INFO  tests.ScrollUpAndDownTest - Back to top scroll test, test passed.
+23:49:46.534 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.
+23:51:54.855 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:51:55.023 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:51:55.034 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:51:57.068 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:51:57.096 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:52:00.827 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:52:00.885 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:52:00.918 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:52:00.964 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:52:00.979 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:52:00.979 [main] INFO  tests.ScrollUpAndDownTest - Back to top scroll test, test passed.
+23:52:00.991 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.
+23:54:18.366 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:54:18.532 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:54:18.544 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:54:20.434 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:54:20.457 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:54:24.203 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:54:24.260 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:54:24.292 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:54:28.366 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:54:28.381 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:54:28.381 [main] INFO  tests.ScrollUpAndDownTest - Back to top scroll test, test passed.
+23:55:47.673 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:55:47.840 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+23:55:47.850 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/131.0.6778.264/chromedriver
+23:55:49.847 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:55:49.873 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:55:53.574 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:55:53.632 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:55:53.664 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:55:57.738 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:55:57.755 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:55:57.765 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.

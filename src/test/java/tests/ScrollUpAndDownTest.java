@@ -13,10 +13,12 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-@Epic("Product Quantity in Cart - Test Scenario #13")
-public class ProductQuantityinCartTest {
+import static utils.utilsMethods.sleep;
 
-    public static final Logger logger = LogManager.getLogger(ProductQuantityinCartTest.class);
+@Epic("Verify scroll up using arrow and scroll down - test scenario #25")
+public class ScrollUpAndDownTest {
+
+    public static final Logger logger = LogManager.getLogger(ScrollUpAndDownTest.class);
     WebDriver driver;
     Action actions;
 
@@ -40,10 +42,10 @@ public class ProductQuantityinCartTest {
 
 
      */
-    @Feature("Product quantity in cart")
-    @Story("Product quantity in cart")
+    @Feature("Scroll up and down")
+    @Story("Enter home page")
     @Description("Test to verify the home page Page URL")
-    @Tag("productQuantity")
+    @Tag("scrollUpAndDown")
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page")
     @Severity(SeverityLevel.CRITICAL)
@@ -58,7 +60,7 @@ public class ProductQuantityinCartTest {
     /**
      * Testing Verify that home page is visible successfully.
      */
-    @Story("Product quantity in cart")
+    @Story("verify home page")
     @Owner("Yogev Orenshtein")
     @Step("Verify home page")
     @Description("Test to verify the home page is visible")
@@ -75,77 +77,45 @@ public class ProductQuantityinCartTest {
     }
 
     /**
-     * Tests the product details URL.
+     * Tests the scroll down and verify subsription is visible.
      */
-    @Story("Product quantity in cart")
-    @Description("Test to verify the product details URL")
-    @Step("Verify product details URL")
+    @Feature("Scroll up and down")
+    @Story("Scroll down and verify subsription is visible")
+    @Description("Test to verify the subsription is visible")
+    @Tag("scrollUpAndDown")
+    @Owner("Yogev Orenshtein")
+    @Step("scrol down and check visiblity")
     @Severity(SeverityLevel.CRITICAL)
-    @Link("https://automationexercise.com/product_details/1")
     @Test(dependsOnMethods = "verifyHomePage")
-    public void verifyProductDetailsURL() {
-        actions.clickViewProduct();
-        Assert.assertEquals(actions.verifyProductDetailsURL(),"https://automationexercise.com/product_details/1");
-    }
+    public void verifySubsriptionVisible() {
+        actions.scrollDown();
 
-    /**
-     * Tests the product details.
-     */
-    @Story("Product quantity in cart")
-    @Description("Test to verify the product details")
-    @Step("Verify product details")
-    @Severity(SeverityLevel.NORMAL)
-    @Link("https://automationexercise.com/product_details/1")
-    @Test(dependsOnMethods = "verifyProductDetailsURL")
-    public void verifyProductDetails() {
-        Assert.assertTrue(actions.verifyProductDetails());
-    }
+        //Assert.assertTrue(actions.checkScrollLocation_HomePage("bottom"));
+        boolean result = actions.verifySubscriptionVisible();
+        if (result) {
+            logger.info("Subscription is visible, test passed.");
+        } else {
+            logger.error("Subscription is not visible, test failed.");
+        }
 
-    /**
-     * Tests the initial quantity.
-     */
-    @Story("Product quantity in cart")
-    @Description("Test to verify the initial quantity")
-    @Step("Verify initial quantity")
-    @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "verifyProductDetails")
-    public void verifyInitialQuantity() {
-        actions.increaseProductQuantity(4);
-        Assert.assertEquals(actions.getQuantity(),4);
+        Assert.assertTrue(result, "The Subscription is not visible.");
+
     }
 
 
-    /**
-     * Tests the view cart.
-     */
-    @Story("Product quantity in cart")
-    @Description("Test to verify the view cart")
-    @Step("Verify view cart")
-    @Severity(SeverityLevel.NORMAL)
-    @Link("https://automationexercise.com/view_cart")
-    @Test(dependsOnMethods = "verifyInitialQuantity")
-    public void verifyViewCart() {
-        actions.addToCart();
-        Assert.assertTrue(actions.verifyViewCart());
+    @Test(dependsOnMethods = "verifySubsriptionVisible")
+    public void verifyBackUp(){
+        sleep(4);
+        actions.clickUpArrow();
+        logger.info("top arrow is clicked.");
+        Assert.assertTrue(actions.topImageIsVisible());
+        logger.info("top image is visible.11");
+        //Assert.assertTrue(actions.checkScrollLocation_HomePage("top"));
+        //logger.info("Back to top scroll test, test passed.");
+        Assert.assertEquals(actions.getMainText(),"Full-Fledged practice website for Automation Engineers");
+        logger.info("Main text is visible, test passed.");
+        sleep(4);
     }
-
-    /**
-     * Tests the cart details after adding.
-     */
-    @Story("Product quantity in cart")
-    @Description("Test to verify the cart details after adding")
-    @Step("Verify cart details after adding")
-    @Severity(SeverityLevel.NORMAL)
-    @Link("https://automationexercise.com/view_cart")
-    @Tag("cartDetails")
-    @Test(dependsOnMethods = "verifyViewCart")
-    public void verifyCartDetailsAfterAdding() {
-
-        Assert.assertEquals(actions.getItemName(),"Blue Top");
-        Assert.assertEquals(actions.getItemDescription(),"Women > Tops");
-        Assert.assertEquals(actions.getCartQuantity(),4);
-    }
-
     /**
      * Cleans up the test environment by quitting the WebDriver.
      */
