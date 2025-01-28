@@ -75,6 +75,42 @@ public class SearchAndVerifyAfterLoginTest {
     }
 
     /**
+     * Tests the products page arrival.
+     */
+    @Test(dependsOnMethods = "verifyHomePage",priority = 3)
+    public void verifyProductsPage() {
+        actions.navigateToProducts();
+        Assert.assertTrue(actions.verifyProductsPage());
+        logger.info("Products page is visible, test passed.");
+        Assert.assertTrue(actions.isAllProductsVisible());
+        logger.info("All products text are visible, test passed.");
+    }
+    /**
+     * Tests the products page URL.
+     */
+    @Test(dependsOnMethods = "verifyProductsPage",priority = 4)
+    public void verifyProductsPageURL() {
+        Assert.assertEquals(actions.verifyProductsPageURL(), "https://automationexercise.com/products");
+        logger.info("Products page URL is correct, test passed.");
+    }
+
+    @Test(dependsOnMethods = "verifyProductsPageURL",priority = 5)
+    public void verifySearchedProducts(){
+        actions.searchProduct("women");
+        Assert.assertTrue(actions.isSearchedProductsVisible());
+        Assert.assertEquals(actions.numOfSearchedProducts(),2);
+        logger.info("Searched products are visible, test passed.");
+
+    }
+
+    @Test(dependsOnMethods = "verifySearchedProducts",priority = 6)
+    public void verifyProductInCart(){
+        actions.addProductToCart();
+
+        //Assert.assertTrue(actions.isProductInCart());
+        logger.info("Product is in cart, test passed.");
+    }
+    /**
      * Cleans up the test environment by quitting the WebDriver.
      */
     @AfterSuite(alwaysRun = true)

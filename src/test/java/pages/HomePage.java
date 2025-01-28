@@ -3,12 +3,16 @@ package pages;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import utils.ScrollUtils;
 
 import java.time.Duration;
+import java.util.List;
+
+import static utils.utilsMethods.sleep;
 
 public class HomePage extends BasePage{
 
@@ -78,6 +82,7 @@ public class HomePage extends BasePage{
 
     public void clickUpArrow() {
         click(By.cssSelector("i.fa.fa-angle-up"));
+        sleep(2);
         //scrollUtils.logScrollPositionAndTopElements();
 
     }
@@ -91,12 +96,23 @@ public class HomePage extends BasePage{
     }
 
     public boolean isMainTextVisible() {
+
         return driver.findElement(By.xpath("//h2[text()='Full-Fledged practice website for Automation Engineers']")).isDisplayed();
     }
 
     public String getFirstH2Text() {
-
-        return driver.findElement(By.xpath("//h2")).getText();
+        List<WebElement> elements = driver.findElements(By.tagName("h2"));
+        String elementText="";
+        for (WebElement element : elements) {
+            if (element.isDisplayed()) {
+                if (element.getText().equals("Full-Fledged practice website for Automation Engineers")) {
+                    elementText = element.getText();
+                    break;
+                }
+            }
+        }
+        return elementText;
+        //return driver.findElement(By.xpath("//h2")).getText();
     }
 
     public boolean isTopImageVisible() {
@@ -111,4 +127,6 @@ public class HomePage extends BasePage{
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("p.pull-left")));
     }
+
+
 }

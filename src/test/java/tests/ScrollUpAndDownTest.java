@@ -74,6 +74,9 @@ public class ScrollUpAndDownTest {
             logger.error("Home page is not visible, test failed.");
         }
         Assert.assertTrue(result, "The Home page is not visible.");
+
+        Assert.assertTrue(actions.checkScrollLocation_HomePage("top"));
+
     }
 
     /**
@@ -102,16 +105,25 @@ public class ScrollUpAndDownTest {
 
     }
 
-
+    /**
+     * Tests the scroll up and verify back up.
+     */
+    @Feature("Scroll up and down")
+    @Story("Scroll up and verify back up")
+    @Step("scrol up and check visiblity")
+    @Description("Test to verify the back up")
+    @Owner("Yogev Orenshtein")
+    @Tag("scrollUpAndDown")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(dependsOnMethods = "verifySubsriptionVisible")
     public void verifyBackUp(){
-        sleep(4);
+        sleep(3);
         actions.clickUpArrow();
         logger.info("top arrow is clicked.");
         Assert.assertTrue(actions.topImageIsVisible());
         logger.info("top image is visible.11");
-        //Assert.assertTrue(actions.checkScrollLocation_HomePage("top"));
-        //logger.info("Back to top scroll test, test passed.");
+        Assert.assertTrue(actions.checkScrollLocation_HomePage("top"));
+        logger.info("Back to top scroll test, test passed.");
         Assert.assertEquals(actions.getMainText(),"Full-Fledged practice website for Automation Engineers");
         logger.info("Main text is visible, test passed.");
         sleep(4);

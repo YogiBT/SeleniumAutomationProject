@@ -130,4 +130,21 @@ public class BasePage {
             Assert.fail("An error occurred while testing the page load status: " + e.getMessage());
         }
     }
+    public void clickProducts() {
+        click(By.cssSelector("a[href='/products']"));
+    }
+
+    public boolean isTextVisibleInH2Elements(String text) {
+        List<WebElement> h2Elements = getAllAvailableElements(By.tagName("h2"));
+        for (WebElement element : h2Elements) {
+            if (element.getText().equalsIgnoreCase(text)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void navigateToCart() {
+        click(By.cssSelector("a[href='/view_cart']"));
+    }
 }

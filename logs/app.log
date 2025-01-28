@@ -1855,3 +1855,406 @@
 23:55:57.738 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
 23:55:57.755 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
 23:55:57.765 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.
+22:15:07.499 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:15:12.955 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+22:15:13.053 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.111/mac-arm64/chromedriver-mac-arm64.zip
+22:15:13.514 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-mac-arm64.zip
+22:15:13.588 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+22:15:16.673 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:15:16.707 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+22:15:20.108 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+22:15:20.167 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+22:15:20.205 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+22:15:24.273 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+22:15:24.288 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+22:16:29.372 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:16:29.542 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+22:16:29.552 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+22:16:31.539 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:16:31.562 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+22:16:34.659 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+22:16:34.717 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+22:16:34.751 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+22:16:39.827 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+22:16:39.862 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+22:22:10.542 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:22:10.711 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+22:22:10.723 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+22:22:14.873 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:22:14.897 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+22:22:16.311 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+22:22:16.355 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+22:22:16.393 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+22:22:21.476 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+22:22:21.491 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+22:22:40.831 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:22:41.020 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+22:22:41.031 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+22:22:44.684 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:22:44.711 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+22:22:46.501 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+22:22:46.558 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+22:22:46.596 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+22:22:51.674 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+22:22:51.710 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+22:22:51.735 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.
+22:23:30.213 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:23:30.397 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+22:23:30.408 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+22:23:32.396 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:23:32.419 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+22:23:35.571 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+22:23:35.629 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+22:23:35.664 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+22:23:40.760 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+22:23:40.796 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+22:23:40.798 [main] INFO  tests.ScrollUpAndDownTest - Back to top scroll test, test passed.
+22:23:40.823 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.
+22:48:09.536 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:48:09.717 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+22:48:09.730 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+22:48:13.622 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:48:13.646 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+22:48:15.449 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+22:48:15.518 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+23:51:24.279 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+23:51:24.891 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+23:51:24.901 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+23:51:28.697 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:51:28.717 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+23:51:30.437 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+23:51:30.499 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:09:34.516 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:09:34.685 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:09:34.697 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:09:39.426 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:09:39.459 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:09:41.191 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:09:41.253 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:09:44.806 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:09:44.836 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:09:44.842 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:18:18.733 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:18:18.905 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:18:18.917 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:18:22.924 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:18:22.949 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:18:24.703 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:18:24.752 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:18:29.076 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:18:29.106 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:18:29.111 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:18:32.591 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:23:52.649 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:23:52.819 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:23:52.829 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:23:56.738 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:23:56.780 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:23:58.520 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:23:58.574 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:24:02.026 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:24:02.055 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:24:02.059 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:24:05.739 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:41:05.168 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:41:05.338 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:41:05.351 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:41:09.140 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:41:09.163 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:41:10.522 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:41:10.573 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:41:14.347 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:41:14.376 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:41:14.381 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:41:17.823 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:43:25.781 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:43:25.950 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:43:25.960 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:43:29.509 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:43:29.536 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:43:31.273 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:43:31.325 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:43:35.299 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:43:35.327 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:43:35.332 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:43:39.066 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:46:40.694 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:46:40.855 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:46:40.867 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:46:44.250 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:46:44.276 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:46:46.021 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:46:46.079 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:46:49.857 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:46:49.887 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:46:49.892 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:46:53.583 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:48:57.596 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:48:57.766 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:48:57.777 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:49:01.341 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:49:01.365 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:49:02.724 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:49:02.780 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:49:06.716 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:49:06.747 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:49:06.752 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:49:10.156 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:51:42.964 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:51:43.525 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:51:43.535 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:51:46.802 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:51:46.829 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:51:48.511 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:51:48.572 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:51:52.386 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:51:52.415 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:51:52.420 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:51:55.927 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:52:03.998 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+00:56:10.702 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:56:10.867 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:56:10.879 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:56:12.822 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:56:12.849 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:56:16.034 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:56:16.093 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:56:20.030 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:56:20.060 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:56:20.065 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:56:23.563 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:56:51.193 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:56:51.374 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+00:56:51.387 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+00:56:53.379 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:56:53.400 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:56:56.482 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:56:56.541 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:57:00.747 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:57:00.775 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:57:00.781 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:57:04.487 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:57:12.749 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+01:00:31.639 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:00:31.820 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:00:31.831 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:00:35.273 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:00:35.297 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:00:37.002 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:00:37.060 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:00:40.871 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:00:40.901 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:00:40.906 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:00:44.403 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:00:52.618 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+01:02:07.419 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:02:07.609 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:02:07.623 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:02:09.757 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid dcca5f18-2f9e-4619-a13c-1128430532f1 not found
+01:02:51.465 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:02:51.632 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:02:51.643 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:02:55.781 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:02:55.807 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:02:57.525 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:02:57.571 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:03:01.127 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:03:01.155 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:03:01.160 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:03:04.724 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:03:06.804 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (1a979fedd2276a5cdbfa00928e8f7792)] -> class name: add-to-cart]
+01:03:08.865 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (1a979fedd2276a5cdbfa00928e8f7792)] -> class name: add-to-cart]
+01:03:10.930 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (1a979fedd2276a5cdbfa00928e8f7792)] -> class name: add-to-cart]
+01:03:12.994 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (1a979fedd2276a5cdbfa00928e8f7792)] -> class name: add-to-cart]
+01:03:12.994 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+01:05:14.672 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:05:14.836 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:05:14.849 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:05:16.832 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:05:16.854 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:05:19.601 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:05:19.659 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:05:23.599 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:05:23.626 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:05:23.631 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:05:27.149 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:05:29.218 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (761c2e18f3ef1e7737a7cef2b4c188c0)] -> class name: add-to-cart]
+01:05:31.254 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (761c2e18f3ef1e7737a7cef2b4c188c0)] -> class name: add-to-cart]
+01:05:33.315 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (761c2e18f3ef1e7737a7cef2b4c188c0)] -> class name: add-to-cart]
+01:05:35.376 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (761c2e18f3ef1e7737a7cef2b4c188c0)] -> class name: add-to-cart]
+01:05:42.449 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+01:07:38.224 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:07:38.399 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:07:38.409 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:07:41.796 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:07:41.824 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:07:43.538 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:07:43.585 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:07:47.332 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:07:47.355 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:07:47.360 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:07:50.888 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:07:52.967 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (cdeddfd6f44ce837dd51f833e0e398cf)] -> class name: add-to-cart]
+01:07:55.026 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (cdeddfd6f44ce837dd51f833e0e398cf)] -> class name: add-to-cart]
+01:07:57.086 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (cdeddfd6f44ce837dd51f833e0e398cf)] -> class name: add-to-cart]
+01:07:59.147 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (cdeddfd6f44ce837dd51f833e0e398cf)] -> class name: add-to-cart]
+01:08:06.467 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+01:08:45.100 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:08:45.277 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:08:45.291 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:08:47.273 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:08:47.298 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:08:51.086 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:08:51.143 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:08:54.711 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:08:54.739 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:08:54.745 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:08:58.433 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:08:58.448 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Number of products found: 4
+01:09:00.505 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (3015f0bc6c70acdf0f7f1c931c7a3483)] -> class name: add-to-cart]
+01:09:02.549 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (3015f0bc6c70acdf0f7f1c931c7a3483)] -> class name: add-to-cart]
+01:09:04.599 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (3015f0bc6c70acdf0f7f1c931c7a3483)] -> class name: add-to-cart]
+01:09:06.647 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (3015f0bc6c70acdf0f7f1c931c7a3483)] -> class name: add-to-cart]
+01:09:13.772 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+01:11:51.925 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:11:52.089 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:11:52.099 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:11:56.027 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:11:56.076 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:11:57.812 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:11:57.870 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:12:02.062 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:12:02.091 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:12:02.096 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:12:05.749 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:14:14.129 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:14:14.320 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:14:14.333 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:14:16.309 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:14:16.334 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:14:20.150 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:14:20.209 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:14:24.286 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:14:24.313 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:14:24.322 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:14:27.944 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:14:30.011 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (5d9e6b53a4909e6216fe3e318d3edd89)] -> class name: add-to-cart]
+01:14:32.082 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (5d9e6b53a4909e6216fe3e318d3edd89)] -> class name: add-to-cart]
+01:14:34.131 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (5d9e6b53a4909e6216fe3e318d3edd89)] -> class name: add-to-cart]
+01:14:36.205 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (5d9e6b53a4909e6216fe3e318d3edd89)] -> class name: add-to-cart]
+01:14:40.253 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+01:16:12.542 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:16:12.715 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:16:12.727 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:16:16.070 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:16:16.096 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:16:17.454 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:16:17.502 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:16:20.501 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:16:20.533 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:16:20.538 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:16:23.951 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:16:26.020 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (a90ec55bdbc11bea4e70018c71ec5b1f)] -> class name: add-to-cart]
+01:16:28.079 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (a90ec55bdbc11bea4e70018c71ec5b1f)] -> class name: add-to-cart]
+01:16:30.139 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (a90ec55bdbc11bea4e70018c71ec5b1f)] -> class name: add-to-cart]
+01:16:32.175 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (a90ec55bdbc11bea4e70018c71ec5b1f)] -> class name: add-to-cart]
+01:16:36.189 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+01:20:29.605 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:20:29.765 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:20:29.776 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:20:31.784 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:20:31.808 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:20:34.986 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:20:35.048 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:20:38.935 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:20:38.964 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:20:38.970 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:20:42.197 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:20:44.298 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (767c5f18b0e8c4a45c2af728fa792e74)] -> class name: add-to-cart]
+01:20:46.359 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (767c5f18b0e8c4a45c2af728fa792e74)] -> class name: add-to-cart]
+01:20:48.421 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (767c5f18b0e8c4a45c2af728fa792e74)] -> class name: add-to-cart]
+01:20:50.481 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (767c5f18b0e8c4a45c2af728fa792e74)] -> class name: add-to-cart]
+01:20:54.709 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+01:25:28.967 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:25:29.127 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:25:29.137 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:25:33.105 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:25:33.128 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:25:34.467 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:25:34.528 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:25:38.641 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:25:38.670 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:25:38.675 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:25:42.175 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:26:44.884 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+01:26:45.067 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.111 (resolved driver for Chrome 132)
+01:26:45.081 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.111/chromedriver
+01:26:47.088 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+01:26:47.115 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+01:26:50.221 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+01:26:50.273 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+01:26:54.116 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+01:26:54.145 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+01:26:54.149 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+01:26:57.586 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+01:26:59.838 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (8536ae9b3636f18dbdce1de78f5194e7)] -> class name: add-to-cart]
+01:27:01.882 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- [[ChromeDriver: chrome on mac (8536ae9b3636f18dbdce1de78f5194e7)] -> class name: add-to-cart]
+01:27:05.898 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.

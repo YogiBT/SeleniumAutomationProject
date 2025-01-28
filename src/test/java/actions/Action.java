@@ -12,6 +12,7 @@ public class Action {
     TestCasePage testCasePage;
     ProductDetailPage productDetailPage;
     ViewCartPage viewCartPage;
+    ProductsPage productsPage;
     WebDriver driver;
 
     /**
@@ -25,6 +26,7 @@ public class Action {
         this.testCasePage = new TestCasePage(driver);
         this.productDetailPage = new ProductDetailPage(driver);
         this.viewCartPage = new ViewCartPage(driver);
+        this.productsPage = new ProductsPage(driver);
     }
 
     /**
@@ -180,5 +182,40 @@ public class Action {
 
     public boolean topImageIsVisible() {
         return homePage.isTopImageVisible();
+    }
+
+    public void navigateToProducts() {
+        homePage.clickProducts();
+        sleep(2);
+    }
+
+    public boolean verifyProductsPage() {
+        return productsPage.verifyProductsPage();
+    }
+
+    public String verifyProductsPageURL() {
+        return productsPage.getCurrentUrl();
+    }
+
+    public boolean isAllProductsVisible() {
+        return productsPage.isAllProductsVisible();
+    }
+
+    public void searchProduct(String productName) {
+        productsPage.searchProducts(productName);
+    }
+
+    public boolean isSearchedProductsVisible() {
+        return productsPage.isSearchedProductsVisible();
+    }
+
+    public int numOfSearchedProducts() {
+        return productsPage.numOfSearchedProducts();
+    }
+
+    public void addProductToCart() {
+        productsPage.addSearchedProductToCart();
+        productsPage.navigateToCart();
+        sleep(3);
     }
 }
