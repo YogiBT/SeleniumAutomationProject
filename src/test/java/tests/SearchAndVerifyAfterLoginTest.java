@@ -94,6 +94,10 @@ public class SearchAndVerifyAfterLoginTest {
         logger.info("Products page URL is correct, test passed.");
     }
 
+
+    /**
+     * Tests the searched products.
+     */
     @Test(dependsOnMethods = "verifyProductsPageURL",priority = 5)
     public void verifySearchedProducts(){
         actions.searchProduct("women");
@@ -103,12 +107,35 @@ public class SearchAndVerifyAfterLoginTest {
 
     }
 
+    /**
+     * Tests the product in cart.
+     */
     @Test(dependsOnMethods = "verifySearchedProducts",priority = 6)
     public void verifyProductInCart(){
         actions.addProductToCart();
 
-        //Assert.assertTrue(actions.isProductInCart());
+        Assert.assertEquals(actions.isProductInCart("women"),2);
         logger.info("Product is in cart, test passed.");
+    }
+
+    @Test(dependsOnMethods = "verifyProductInCart",priority = 7)
+    public void verifyProductAfterLogin() {
+        /*
+        String email = JsonUtils.readJsonFromFile("email");
+        String password = JsonUtils.readJsonFromFile("password");
+
+         */
+        String email = "jonsnow@gmail.com";
+        String password = "testCase20";
+
+
+        logger.info("Opening the LoginPage");
+        Assert.assertEquals(actions.navigateToLoginPage(), "https://automationexercise.com/login");
+        logger.info("LoginPage test passed - arrived at LoginPage");
+
+        Assert.assertEquals(actions.isProductInCartAfterLogin("women",email,password),2);
+        logger.info("Product is in cart after login, test passed.");
+
     }
     /**
      * Cleans up the test environment by quitting the WebDriver.

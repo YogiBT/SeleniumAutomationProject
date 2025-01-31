@@ -86,9 +86,21 @@ public class ProductsPage extends BasePage {
                 js.executeScript("arguments[0].click();", button);
                 sleep(2);
                 click(By.cssSelector("button.btn.btn-success.close-modal.btn-block[data-dismiss='modal']"));
-                logger.info("Product added to cart- " + button);
+                logger.info("Product added to cart- " + getAddedItemTextFromButton(button));
                 clickedButtons.add(button);
             }
         }
+    }
+
+    public String getAddedItemTextFromButton(WebElement button) {
+
+
+        // Find the parent <div> element
+        WebElement parentDiv = button.findElement(By.xpath(".."));
+
+        // Retrieve the text from the <p> element within the parent <div>
+        WebElement productDescription = parentDiv.findElement(By.tagName("p"));
+
+        return productDescription.getText();
     }
 }

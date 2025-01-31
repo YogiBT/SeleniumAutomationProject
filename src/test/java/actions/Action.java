@@ -13,6 +13,7 @@ public class Action {
     ProductDetailPage productDetailPage;
     ViewCartPage viewCartPage;
     ProductsPage productsPage;
+    LoginPage loginPage;
     WebDriver driver;
 
     /**
@@ -27,6 +28,7 @@ public class Action {
         this.productDetailPage = new ProductDetailPage(driver);
         this.viewCartPage = new ViewCartPage(driver);
         this.productsPage = new ProductsPage(driver);
+        this.loginPage = new LoginPage(driver);
     }
 
     /**
@@ -217,5 +219,22 @@ public class Action {
         productsPage.addSearchedProductToCart();
         productsPage.navigateToCart();
         sleep(3);
+    }
+
+
+    public int isProductInCart(String productName) {
+        return viewCartPage.findAllProductsInCart(productName);
+    }
+
+    public String navigateToLoginPage() {
+        viewCartPage.navigateToLoginPage();
+
+        return loginPage.getCurrentUrl();
+    }
+
+    public int isProductInCartAfterLogin(String productName, String username, String password) {
+        loginPage.login(username, password);
+        loginPage.navigateToCart();
+        return isProductInCart(productName);
     }
 }

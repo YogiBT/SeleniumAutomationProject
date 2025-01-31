@@ -32,4 +32,8 @@ public class ViewCartPage extends BasePage {
         logger.info("Getting cart quantity");
         return Integer.parseInt(Objects.requireNonNull(getAllAvailableElements(By.cssSelector("td.cart_quantity button.disabled")).getFirst().getText()));
     }
+
+    public int findAllProductsInCart(String productName) {
+        return utils.utilsMethods.countElementsContainingString(driver, productName);
+    }
 }

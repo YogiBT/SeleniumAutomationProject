@@ -40,9 +40,7 @@ public class BasePage {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
 
-        // this casuse infinite loop
-        //actions = new Action(driver);
-        //this.logger = Logger.getLogger(BasePage.class.getName());
+
     }
     /**
      * Clicks on the element located by the given locator.
@@ -146,5 +144,9 @@ public class BasePage {
 
     public void navigateToCart() {
         click(By.cssSelector("a[href='/view_cart']"));
+    }
+
+    public void navigateToLoginPage() {
+        click(By.cssSelector("a[href='/login']"));
     }
 }
