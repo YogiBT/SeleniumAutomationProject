@@ -2379,3 +2379,86 @@
 00:15:46.892 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the LoginPage
 00:15:48.021 [main] INFO  tests.SearchAndVerifyAfterLoginTest - LoginPage test passed - arrived at LoginPage
 00:15:51.115 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart login, test passed.
+00:26:14.115 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:26:14.282 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+00:26:14.295 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+00:26:16.400 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:26:16.428 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:26:19.855 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:26:19.917 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:26:23.424 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:26:23.453 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:26:23.458 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:26:26.713 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:26:28.969 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Madame Top For Women
+00:26:31.038 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Lace Top For Women
+00:26:35.245 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+00:27:52.850 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:27:53.012 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+00:27:53.022 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+00:27:56.322 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:27:56.347 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:27:58.087 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:27:58.144 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:28:01.765 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:28:01.793 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:28:01.797 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:28:05.106 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:28:07.358 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Madame Top For Women
+00:28:09.427 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Lace Top For Women
+00:28:13.664 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+00:31:07.647 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:31:07.815 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+00:31:07.827 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+00:31:11.817 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:31:11.839 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:31:13.166 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:31:13.225 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:31:16.480 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:31:16.509 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:31:16.514 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:31:19.744 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:31:22.002 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Madame Top For Women
+00:31:24.048 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Lace Top For Women
+00:31:28.226 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+00:32:07.657 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:32:07.823 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+00:32:07.834 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+00:32:09.775 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:32:09.802 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:32:13.112 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:32:13.170 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:32:16.469 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:32:16.496 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:32:16.500 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:32:19.871 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:32:22.125 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Madame Top For Women
+00:32:24.189 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Lace Top For Women
+00:32:28.330 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+00:33:12.316 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+00:33:12.479 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+00:33:12.491 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+00:33:15.929 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+00:33:15.954 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:33:17.655 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:33:17.713 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:33:20.961 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:33:20.989 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:33:20.993 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:33:24.268 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:33:26.538 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Madame Top For Women
+00:33:28.582 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Lace Top For Women
+00:33:32.706 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+00:33:32.893 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the LoginPage
+00:33:33.988 [main] INFO  tests.SearchAndVerifyAfterLoginTest - LoginPage test passed - arrived at LoginPage
+00:33:36.733 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart after login, test passed.

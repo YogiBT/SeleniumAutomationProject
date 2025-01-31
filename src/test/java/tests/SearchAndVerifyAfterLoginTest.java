@@ -125,8 +125,12 @@ public class SearchAndVerifyAfterLoginTest {
         String password = JsonUtils.readJsonFromFile("password");
 
          */
-        String email = "jonsnow@gmail.com";
-        String password = "testCase20";
+
+        //String email = "jonsnow@gmail.com";
+        //String password = "testCase20";
+
+        String email = (String) new utils.readFromExcel().getData()[0][1];
+        String password =(String) new utils.readFromExcel().getData()[0][6];
 
 
         logger.info("Opening the LoginPage");
