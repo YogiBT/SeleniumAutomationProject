@@ -49,7 +49,7 @@ public class ScrollUpAndDownTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression,testScenario13"})
+    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression","testScenario25"})
     public void homePage() throws Exception {
         logger.info("Opening the HomePage");
         String url = actions.ariveAtHomePage();
@@ -65,7 +65,7 @@ public class ScrollUpAndDownTest {
     @Step("Verify home page")
     @Description("Test to verify the home page is visible")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 2, description = "testing the Home page", groups = {"smoke"},dependsOnMethods = "homePage")
+    @Test(priority = 2, description = "testing the Home page", groups = {"regression","testScenario25"},dependsOnMethods = "homePage")
     public void verifyHomePage() {
         boolean result = actions.verifyHomePage();
         if (result) {
@@ -89,7 +89,7 @@ public class ScrollUpAndDownTest {
     @Owner("Yogev Orenshtein")
     @Step("scrol down and check visiblity")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(dependsOnMethods = "verifyHomePage")
+    @Test(dependsOnMethods = "verifyHomePage",priority = 3,description = "testing the scroll down and verify subsription is visible", groups = {"regression","testScenario25"})
     public void verifySubsriptionVisible() {
         actions.scrollDown();
 
@@ -115,7 +115,7 @@ public class ScrollUpAndDownTest {
     @Owner("Yogev Orenshtein")
     @Tag("scrollUpAndDown")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(dependsOnMethods = "verifySubsriptionVisible")
+    @Test(dependsOnMethods = "verifySubsriptionVisible",priority = 4,description = "testing the scroll up and verify back up", groups = {"regression","testScenario13"})
     public void verifyBackUp(){
         sleep(3);
         actions.clickUpArrow();

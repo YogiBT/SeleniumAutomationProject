@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <test name="SearchAndVerifyAfterLoginTest">
+        <groups>
+            <run>
+                <include name="testScenario20"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.SearchAndVerifyAfterLoginTest"/>
+        </classes>
+    </test>
+</suite>

@@ -40,7 +40,7 @@ public class TestCasesPageTest {
      * Tests the home page arrival.
      */
 
-    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression"})
+    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression","testCase7"})
     public void homePage() throws Exception {
         logger.info("Opening the HomePage");
         String url = actions.ariveAtHomePage();
@@ -51,7 +51,7 @@ public class TestCasesPageTest {
     /**
      * Testing Verify that home page is visible successfully.
      */
-    @Test(priority = 2, description = "testing the Home page", groups = {"smoke"},dependsOnMethods = "homePage")
+    @Test(priority = 2, description = "testing the Home page", groups = {"testCase7"},dependsOnMethods = "homePage")
     public void verifyHomePage() {
         boolean result = actions.verifyHomePage();
         if (result) {

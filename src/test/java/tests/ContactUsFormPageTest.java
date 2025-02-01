@@ -48,7 +48,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression"})
+    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression","testCase6"})
     public void homePage() throws Exception {
         logger.info("Opening the HomePage");
         String url = actions.ariveAtHomePage();
@@ -67,7 +67,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 2, description = "testing the Home page", groups = {"smoke"},dependsOnMethods = "homePage")
+    @Test(priority = 2, description = "testing the Home page", groups = {"testCase6"},dependsOnMethods = "homePage")
     public void verifyHomePage() {
         boolean result = actions.verifyHomePage();
         if (result) {
@@ -78,18 +78,7 @@ public class ContactUsFormPageTest {
         Assert.assertTrue(result, "The Home page is not visible.");
     }
 
-    /*
-    @Test(priority = 3,description = "testing the contact us page arrival",dependsOnMethods = "verifyHomePage", groups = {"testCase6","regression"})
-    public void ContactUsPage() throws InterruptedException {
 
-        //logger.info("Starting the ContactUsPage test");
-        //Assert.assertTrue(actions.ariveAtContactUsPage(),"ContactUsPage test failed - did not arrive at ContactUsPage");
-        //logger.info("ContactUsPage test passed - arrived at ContactUsPage");
-        //actions.enterDetailsInContactUsPage(name,email,subject,message,file);
-        //logger.info("All the following details have being entered & submitted");
-
-    }
-    */
 
     /**
      * Tests the arrival to test case page.
@@ -102,7 +91,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(dependsOnMethods = "verifyHomePage", groups = {"testCase6","regression"})
+    @Test(dependsOnMethods = "verifyHomePage", groups = {"testCase6","regression"},description = "testing the arrival to test case page")
     public void ArriveAtContactUsPage() {
         logger.info("Starting the ContactUsPage test");
         Assert.assertTrue(actions.ariveAtContactUsPage(),"ContactUsPage test failed - did not arrive at ContactUsPage");
@@ -124,7 +113,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Verify Get In Touch Visible")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "ArriveAtContactUsPage", groups = {"testCase6","regression"})
+    @Test(dependsOnMethods = "ArriveAtContactUsPage", groups = {"testCase6","regression"},description = "testing the GET IN TOUCH visible")
     public void verifyGetInTouchVisible() {
         logger.info("Starting the GET IN TOUCH visible test");
         Assert.assertEquals(actions.getInTouchVisible(),"GET IN TOUCH");
@@ -149,8 +138,8 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page and verify success message")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "verifyGetInTouchVisible",dataProvider = "excelData",dataProviderClass = readFromExcel.class)
-    public void verifySuccessMessage(String name,String email,String subject,String message,String file) throws InterruptedException {
+    @Test(dependsOnMethods = "verifyGetInTouchVisible",dataProvider = "excelData",dataProviderClass = readFromExcel.class,description = "testing the contact us page arrival", groups = {"testCase6"})
+    public void verifySuccessMessage(String name,String email,String subject,String message,String file,String userName,String password) throws InterruptedException {
         logger.info("Stating to fill details in the contact us page");
         actions.enterDetailsInContactUsPage(name,email,subject,message,file);
         logger.info("Starting the verify success message test");
@@ -171,7 +160,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Go back home after success")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "verifySuccessMessage")
+    @Test(dependsOnMethods = "verifySuccessMessage",description = "testing the go back home after success", groups = {"testCase6"})
     public void goBackHome() {
         logger.info("Starting the go back home test");
         actions.goBackHome();

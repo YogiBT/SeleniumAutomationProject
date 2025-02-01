@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <test name="ProductQuantityinCartTest">
+        <groups>
+            <run>
+                <include name="testScenario13"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.ProductQuantityinCartTest"/>
+        </classes>
+    </test>
+</suite>

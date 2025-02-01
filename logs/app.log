@@ -2462,3 +2462,508 @@
 00:33:32.893 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the LoginPage
 00:33:33.988 [main] INFO  tests.SearchAndVerifyAfterLoginTest - LoginPage test passed - arrived at LoginPage
 00:33:36.733 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart after login, test passed.
+22:30:41.726 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:30:41.867 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase20.xml
+
+22:31:28.832 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:31:29.021 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase20.xml
+
+22:31:29.788 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:31:29.806 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:31:33.527 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:32:35.006 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:32:35.194 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase20.xml
+
+22:32:35.466 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:32:35.482 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:32:39.265 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:34:17.757 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:34:17.944 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase20.xml
+
+22:34:18.219 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:34:18.233 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:34:22.240 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:36:57.371 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:36:57.570 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase20.xml
+
+22:36:57.837 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:36:57.853 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:37:01.614 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:37:01.643 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+22:37:03.501 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+22:37:03.561 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+22:37:06.970 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+22:37:07.002 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+22:37:07.008 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+22:37:10.549 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+22:37:12.910 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Madame Top For Women
+22:37:14.993 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Lace Top For Women
+22:37:19.421 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+22:42:26.166 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:42:26.357 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase13.xml
+
+22:42:26.629 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:42:26.649 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:42:30.517 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:42:30.543 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+22:42:32.367 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+22:42:32.415 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+22:42:32.467 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+22:42:37.559 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+22:42:37.593 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+22:42:37.598 [main] INFO  tests.ScrollUpAndDownTest - Back to top scroll test, test passed.
+22:42:37.633 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.
+22:46:16.471 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:46:16.681 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase13.xml
+
+22:46:16.957 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:46:16.975 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:46:19.528 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:46:19.556 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:46:27.340 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:46:27.391 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:46:29.394 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:46:29.411 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:46:29.616 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:46:29.636 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+22:46:29.684 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+22:46:31.507 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+22:46:31.525 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
+22:46:31.540 [main] INFO  tests.ProductQuantityinCartTest - Getting item description
+22:46:31.553 [main] INFO  tests.ProductQuantityinCartTest - Getting cart quantity
+22:49:27.048 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:49:27.239 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase6.xml
+
+22:49:27.512 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:49:27.533 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:49:29.700 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:49:29.729 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+22:49:32.935 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:49:32.997 [main] INFO  tests.ContactUsFormPageTest - Home page is visible, test passed.
+22:49:33.001 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:49:34.200 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:49:34.204 [main] INFO  tests.ContactUsFormPageTest - Starting the GET IN TOUCH visible test
+22:49:34.241 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+22:49:34.241 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+22:49:46.354 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:49:46.628 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:49:46.644 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:49:50.611 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:49:50.640 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+22:49:52.412 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:49:52.470 [main] INFO  tests.ContactUsFormPageTest - Home page is visible, test passed.
+22:49:52.474 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:49:53.724 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:49:53.728 [main] INFO  tests.ContactUsFormPageTest - Starting the GET IN TOUCH visible test
+22:49:53.766 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+22:49:53.766 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+22:50:11.434 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:50:11.714 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:50:11.729 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:50:14.011 [main] INFO  tests.TestCasesPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:50:14.038 [main] INFO  tests.TestCasesPageTest - Opening the HomePage
+22:50:17.718 [main] INFO  tests.TestCasesPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:50:17.779 [main] INFO  tests.TestCasesPageTest - Home page is visible, test passed.
+22:50:17.785 [main] INFO  tests.TestCasesPageTest - Starting TestCasePage test
+22:50:17.788 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+22:50:19.096 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+22:50:19.904 [main] INFO  tests.TestCasesPageTest - TestCasePage test passed - arrived at TestCasePage
+22:51:22.035 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:51:22.239 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+22:51:22.516 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:51:22.531 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:51:26.619 [main] INFO  tests.TestCasesPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:51:26.644 [main] INFO  tests.TestCasesPageTest - Opening the HomePage
+22:51:28.585 [main] INFO  tests.TestCasesPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:51:28.642 [main] INFO  tests.TestCasesPageTest - Home page is visible, test passed.
+22:51:28.648 [main] INFO  tests.TestCasesPageTest - Starting TestCasePage test
+22:51:28.651 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+22:51:29.975 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+22:51:30.754 [main] INFO  tests.TestCasesPageTest - TestCasePage test passed - arrived at TestCasePage
+22:54:06.175 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:54:06.451 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:54:06.467 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:54:08.648 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:54:08.678 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+22:54:11.954 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:54:12.015 [main] INFO  tests.ContactUsFormPageTest - Home page is visible, test passed.
+22:54:12.019 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:54:13.244 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:54:13.248 [main] INFO  tests.ContactUsFormPageTest - Starting the GET IN TOUCH visible test
+22:54:13.285 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+22:54:13.285 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+22:55:57.080 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+22:55:57.344 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:55:57.360 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:56:01.450 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:56:01.477 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+22:56:03.432 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:56:03.498 [main] INFO  tests.ContactUsFormPageTest - Home page is visible, test passed.
+22:56:03.501 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:56:05.253 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:56:05.257 [main] INFO  tests.ContactUsFormPageTest - Starting the GET IN TOUCH visible test
+22:56:05.295 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+22:56:05.295 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+22:56:05.617 [main] INFO  tests.ContactUsFormPageTest - Stating to fill details in the contact us page
+22:56:05.730 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+22:56:05.781 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+22:56:05.830 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+22:56:05.908 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+22:56:05.932 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+22:56:07.000 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+22:56:07.006 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+22:56:08.011 [main] INFO  tests.ContactUsFormPageTest - Starting the verify success message test
+22:56:08.037 [main] INFO  tests.ContactUsFormPageTest - Success message is visible
+22:56:08.044 [main] INFO  tests.ContactUsFormPageTest - Starting the go back home test
+22:56:09.483 [main] INFO  tests.ContactUsFormPageTest - Arrived back at the home page
+22:56:19.143 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:56:19.381 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/runAllTests.xml
+
+22:56:19.674 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:56:19.695 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:56:23.352 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:56:23.360 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:56:23.367 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:56:26.218 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:56:26.229 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:56:26.235 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:56:30.352 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:56:30.360 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:56:30.365 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:56:32.949 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:56:32.958 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:56:32.964 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:56:35.894 [main] INFO  tests.TestCasesPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:56:35.932 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+22:56:37.686 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:56:37.745 [main] INFO  tests.ContactUsFormPageTest - Home page is visible, test passed.
+22:56:37.750 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:56:39.384 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:56:39.389 [main] INFO  tests.ContactUsFormPageTest - Starting the GET IN TOUCH visible test
+22:56:39.434 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+22:56:39.434 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+22:56:39.773 [main] INFO  tests.ContactUsFormPageTest - Stating to fill details in the contact us page
+22:56:39.884 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+22:56:39.932 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+22:56:39.983 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+22:56:40.059 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+22:56:40.085 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+22:56:41.151 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+22:56:41.158 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+22:56:42.162 [main] INFO  tests.ContactUsFormPageTest - Starting the verify success message test
+22:56:42.177 [main] INFO  tests.ContactUsFormPageTest - Success message is visible
+22:56:42.189 [main] INFO  tests.ContactUsFormPageTest - Starting the go back home test
+22:56:43.565 [main] INFO  tests.ContactUsFormPageTest - Arrived back at the home page
+22:56:43.580 [main] INFO  tests.TestCasesPageTest - Opening the HomePage
+22:56:45.233 [main] INFO  tests.TestCasesPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:56:45.256 [main] INFO  tests.TestCasesPageTest - Home page is visible, test passed.
+22:56:45.259 [main] INFO  tests.TestCasesPageTest - Starting TestCasePage test
+22:56:45.262 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+22:56:46.643 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+22:56:47.449 [main] INFO  tests.TestCasesPageTest - TestCasePage test passed - arrived at TestCasePage
+22:56:47.456 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:56:49.139 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:56:49.167 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:56:50.996 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:56:51.018 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:56:51.200 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:56:51.218 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+22:56:51.269 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+22:56:53.373 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+22:56:53.395 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
+22:56:53.409 [main] INFO  tests.ProductQuantityinCartTest - Getting item description
+22:56:53.423 [main] INFO  tests.ProductQuantityinCartTest - Getting cart quantity
+22:56:53.438 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+22:56:55.185 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+22:56:55.217 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+22:56:58.561 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+22:56:58.594 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+22:56:58.600 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+22:57:02.148 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+22:57:04.502 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Madame Top For Women
+22:57:06.569 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Lace Top For Women
+22:57:10.764 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+22:57:10.798 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the LoginPage
+22:57:11.823 [main] INFO  tests.SearchAndVerifyAfterLoginTest - LoginPage test passed - arrived at LoginPage
+22:57:14.396 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart after login, test passed.
+22:57:14.402 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+22:57:16.021 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+22:57:16.050 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+22:57:16.094 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+22:57:21.173 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+22:57:21.193 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+22:57:21.195 [main] INFO  tests.ScrollUpAndDownTest - Back to top scroll test, test passed.
+22:57:21.220 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.
+22:59:11.688 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:59:11.944 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/runAllTests.xml
+
+22:59:12.232 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:59:12.251 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:59:14.542 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:59:14.551 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:59:14.559 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:59:16.631 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:59:16.646 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:59:16.654 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:59:20.285 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:59:20.295 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:59:20.301 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:59:22.268 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:59:22.278 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+22:59:22.285 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+22:59:25.341 [main] INFO  tests.TestCasesPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+22:59:25.407 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+22:59:30.600 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:59:30.668 [main] INFO  tests.ContactUsFormPageTest - Home page is visible, test passed.
+22:59:30.673 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+22:59:32.324 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+22:59:32.328 [main] INFO  tests.ContactUsFormPageTest - Starting the GET IN TOUCH visible test
+22:59:32.366 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+22:59:32.366 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+22:59:32.726 [main] INFO  tests.ContactUsFormPageTest - Stating to fill details in the contact us page
+22:59:32.844 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+22:59:32.892 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+22:59:32.954 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+22:59:33.065 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+22:59:33.101 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+22:59:34.192 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+22:59:34.204 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+22:59:35.210 [main] INFO  tests.ContactUsFormPageTest - Starting the verify success message test
+22:59:35.229 [main] INFO  tests.ContactUsFormPageTest - Success message is visible
+22:59:35.235 [main] INFO  tests.ContactUsFormPageTest - Starting the go back home test
+22:59:38.491 [main] INFO  tests.ContactUsFormPageTest - Arrived back at the home page
+22:59:38.499 [main] INFO  tests.TestCasesPageTest - Opening the HomePage
+22:59:40.130 [main] INFO  tests.TestCasesPageTest - HomePage test passed - arrived at HomePage with status code 200
+22:59:40.147 [main] INFO  tests.TestCasesPageTest - Home page is visible, test passed.
+22:59:40.152 [main] INFO  tests.TestCasesPageTest - Starting TestCasePage test
+22:59:40.155 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+22:59:41.899 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+22:59:42.732 [main] INFO  tests.TestCasesPageTest - TestCasePage test passed - arrived at TestCasePage
+22:59:42.743 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+22:59:44.410 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+22:59:44.438 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+22:59:45.940 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+22:59:45.953 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+22:59:46.092 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+22:59:46.111 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+22:59:46.165 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+22:59:48.071 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+22:59:48.088 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
+22:59:48.104 [main] INFO  tests.ProductQuantityinCartTest - Getting item description
+22:59:48.118 [main] INFO  tests.ProductQuantityinCartTest - Getting cart quantity
+22:59:48.134 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+22:59:49.755 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+22:59:49.776 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+22:59:54.542 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+22:59:54.569 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+22:59:54.574 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+22:59:57.971 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+23:00:00.400 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Madame Top For Women
+23:00:02.478 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Lace Top For Women
+23:00:06.782 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+23:00:06.814 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the LoginPage
+23:00:07.940 [main] INFO  tests.SearchAndVerifyAfterLoginTest - LoginPage test passed - arrived at LoginPage
+23:00:10.977 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart after login, test passed.
+23:00:10.980 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+23:00:12.230 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+23:00:12.252 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+23:00:12.298 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+23:00:17.373 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+23:00:17.411 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+23:00:17.413 [main] INFO  tests.ScrollUpAndDownTest - Back to top scroll test, test passed.
+23:00:17.446 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.
+23:15:35.818 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:15:36.010 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+23:15:36.665 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+23:15:36.795 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as /Users/yogev/.cache/selenium/geckodriver/mac-arm64/0.35.0/geckodriver
+23:15:36.983 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 3aa9435d-e727-4ec8-91c4-e863a94a4830 not found
+23:15:37.059 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 3aa9435d-e727-4ec8-91c4-e863a94a4830 not found
+23:15:37.059 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 0d9969c5-fdf8-41f3-a15d-14ea37c8529c not found
+23:20:46.592 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:20:46.775 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+23:20:46.830 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 3f4c254d-985c-4a82-bd8e-514bae3ab065 not found
+23:24:26.081 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:24:26.280 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+23:24:27.166 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+23:24:27.184 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yogev/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver
+23:24:29.463 [main] INFO  tests.TestCasesPageTest - WebDriver setup complete: chrome, https://automationexercise.com/
+23:24:29.489 [main] INFO  tests.TestCasesPageTest - Opening the HomePage
+23:24:39.773 [main] INFO  tests.TestCasesPageTest - HomePage test passed - arrived at HomePage with status code 200
+23:24:39.834 [main] INFO  tests.TestCasesPageTest - Home page is visible, test passed.
+23:24:39.841 [main] INFO  tests.TestCasesPageTest - Starting TestCasePage test
+23:24:39.845 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+23:24:41.743 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+23:24:42.514 [main] INFO  tests.TestCasesPageTest - TestCasePage test passed - arrived at TestCasePage
+23:27:18.142 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:27:18.332 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+23:27:19.077 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+23:27:19.202 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as /Users/yogev/.cache/selenium/geckodriver/mac-arm64/0.35.0/geckodriver
+23:27:19.366 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 89a4dc41-ec2f-4aab-89fe-3db218c432c9 not found
+23:27:19.441 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 89a4dc41-ec2f-4aab-89fe-3db218c432c9 not found
+23:27:19.441 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid b48c73a8-e024-4296-b430-220cee785c78 not found
+23:38:49.458 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:38:49.640 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+23:38:50.431 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 134)
+23:38:50.452 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as /Users/yogev/.cache/selenium/geckodriver/mac-arm64/0.35.0/geckodriver
+23:38:56.815 [main] INFO  tests.TestCasesPageTest - WebDriver setup complete: firefox, https://automationexercise.com/
+23:38:56.853 [main] INFO  tests.TestCasesPageTest - Opening the HomePage
+23:38:58.647 [main] INFO  tests.TestCasesPageTest - HomePage test passed - arrived at HomePage with status code 200
+23:38:58.704 [main] INFO  tests.TestCasesPageTest - Home page is visible, test passed.
+23:38:58.712 [main] INFO  tests.TestCasesPageTest - Starting TestCasePage test
+23:38:58.715 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+23:38:59.652 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+23:39:00.472 [main] INFO  tests.TestCasesPageTest - TestCasePage test passed - arrived at TestCasePage
+23:39:16.096 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:39:16.292 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+23:39:25.626 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 132.0.2957.140 (resolved driver for Edge 132)
+23:39:25.646 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+23:39:26.396 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://msedgewebdriverstorage.blob.core.windows.net/edgewebdriver/132.0.2957.140/edgedriver_mac64_m1.zip
+23:39:30.987 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file edgedriver_mac64_m1.zip
+23:39:31.140 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as /Users/yogev/.cache/selenium/msedgedriver/mac-arm64/132.0.2957.140/msedgedriver
+23:39:31.181 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid ea9a82c2-2754-43b6-b431-425ebcb3ad63 not found
+23:39:31.255 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid ea9a82c2-2754-43b6-b431-425ebcb3ad63 not found
+23:39:31.256 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 994d9ea7-6a32-46e1-b856-14ba72b20991 not found
+23:44:54.520 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:44:54.718 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+23:44:54.998 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 132.0.2957.140 (resolved driver for Edge 132)
+23:44:55.017 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as /Users/yogev/.cache/selenium/msedgedriver/mac-arm64/132.0.2957.140/msedgedriver
+23:44:56.920 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid e851c468-c5d8-4a93-92be-acf0f10f84ed not found
+23:44:56.983 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid e851c468-c5d8-4a93-92be-acf0f10f84ed not found
+23:44:56.984 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 90ee73c2-50db-455b-8112-12c428d9fd12 not found
+23:46:28.495 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:46:28.679 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+23:46:28.946 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 132.0.2957.140 (resolved driver for Edge 132)
+23:46:28.964 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as /Users/yogev/.cache/selenium/msedgedriver/mac-arm64/132.0.2957.140/msedgedriver
+23:46:30.213 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 12cd9dae-22d0-43a3-9f1f-6d2f8ea1df8b not found
+23:46:30.277 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid 12cd9dae-22d0-43a3-9f1f-6d2f8ea1df8b not found
+23:46:30.277 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid ed9d9b33-a9fe-4bba-a208-85daec372ad4 not found
+23:48:15.550 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+23:48:15.740 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/testCase7.xml
+
+23:48:16.010 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 132.0.2957.140 (resolved driver for Edge 132)
+23:48:16.025 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as /Users/yogev/.cache/selenium/msedgedriver/mac-arm64/132.0.2957.140/msedgedriver
+23:48:21.388 [main] INFO  tests.TestCasesPageTest - WebDriver setup complete: edge, https://automationexercise.com/
+23:48:21.417 [main] INFO  tests.TestCasesPageTest - Opening the HomePage
+23:48:23.193 [main] INFO  tests.TestCasesPageTest - HomePage test passed - arrived at HomePage with status code 200
+23:48:23.271 [main] INFO  tests.TestCasesPageTest - Home page is visible, test passed.
+23:48:23.282 [main] INFO  tests.TestCasesPageTest - Starting TestCasePage test
+23:48:23.285 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+23:48:24.563 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+23:48:24.955 [main] INFO  tests.TestCasesPageTest - TestCasePage test passed - arrived at TestCasePage
+00:43:20.597 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+00:43:20.600 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+00:43:20.847 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/yogev/IdeaProjects/Automation_Project/runAllTests.xml
+
+00:43:21.587 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 132.0.2957.140 (resolved driver for Edge 132)
+00:43:21.603 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as /Users/yogev/.cache/selenium/msedgedriver/mac-arm64/132.0.2957.140/msedgedriver
+00:43:23.826 [main] INFO  tests.ContactUsFormPageTest - WebDriver setup complete: edge, https://automationexercise.com/
+00:43:23.833 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 132.0.2957.140 (resolved driver for Edge 132)
+00:43:23.840 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as /Users/yogev/.cache/selenium/msedgedriver/mac-arm64/132.0.2957.140/msedgedriver
+00:43:29.272 [main] INFO  tests.ProductQuantityinCartTest - WebDriver setup complete: edge, https://automationexercise.com/
+00:43:29.280 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 132.0.2957.140 (resolved driver for Edge 132)
+00:43:29.286 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as /Users/yogev/.cache/selenium/msedgedriver/mac-arm64/132.0.2957.140/msedgedriver
+00:43:34.847 [main] INFO  tests.ScrollUpAndDownTest - WebDriver setup complete: edge, https://automationexercise.com/
+00:43:34.854 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 132.0.2957.140 (resolved driver for Edge 132)
+00:43:34.859 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as /Users/yogev/.cache/selenium/msedgedriver/mac-arm64/132.0.2957.140/msedgedriver
+00:43:40.268 [main] INFO  tests.SearchAndVerifyAfterLoginTest - WebDriver setup complete: edge, https://automationexercise.com/
+00:43:40.275 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 132.0.2957.140 (resolved driver for Edge 132)
+00:43:40.280 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as /Users/yogev/.cache/selenium/msedgedriver/mac-arm64/132.0.2957.140/msedgedriver
+00:43:45.690 [main] INFO  tests.TestCasesPageTest - WebDriver setup complete: edge, https://automationexercise.com/
+00:43:45.731 [main] INFO  tests.ContactUsFormPageTest - Opening the HomePage
+00:43:47.450 [main] INFO  tests.ContactUsFormPageTest - HomePage test passed - arrived at HomePage with status code 200
+00:43:47.516 [main] INFO  tests.ContactUsFormPageTest - Home page is visible, test passed.
+00:43:47.521 [main] INFO  tests.ContactUsFormPageTest - Starting the ContactUsPage test
+00:43:49.243 [main] INFO  tests.ContactUsFormPageTest - ContactUsPage test passed - arrived at ContactUsPage
+00:43:49.246 [main] INFO  tests.ContactUsFormPageTest - Starting the GET IN TOUCH visible test
+00:43:49.283 [main] INFO  tests.ContactUsFormPageTest - Get In Touch is visible - GET IN TOUCH
+00:43:49.283 [main] INFO  tests.ContactUsFormPageTest - Get in touch is visible
+00:43:49.610 [main] INFO  tests.ContactUsFormPageTest - Stating to fill details in the contact us page
+00:43:49.732 [main] INFO  tests.ContactUsFormPageTest - Name entered - Jon Snow
+00:43:49.778 [main] INFO  tests.ContactUsFormPageTest - Email entered - jonsnow@gmail.com
+00:43:49.829 [main] INFO  tests.ContactUsFormPageTest - Subject entered - Hello from the north!
+00:43:49.900 [main] INFO  tests.ContactUsFormPageTest - Message entered - I've sent ravens to get in touch with you, but no response yet. I hope this message finds you well.
+00:43:49.924 [main] INFO  tests.ContactUsFormPageTest - File uploaded - /Users/yogev/IdeaProjects/Automation_Project/theWall.jpg
+00:43:51.005 [main] INFO  tests.ContactUsFormPageTest - Form submitted
+00:43:51.015 [main] INFO  tests.ContactUsFormPageTest - Alert accepted
+00:43:52.018 [main] INFO  tests.ContactUsFormPageTest - Starting the verify success message test
+00:43:52.042 [main] INFO  tests.ContactUsFormPageTest - Success message is visible
+00:43:52.051 [main] INFO  tests.ContactUsFormPageTest - Starting the go back home test
+00:43:53.342 [main] INFO  tests.ContactUsFormPageTest - Arrived back at the home page
+00:43:53.348 [main] INFO  tests.TestCasesPageTest - Opening the HomePage
+00:43:54.956 [main] INFO  tests.TestCasesPageTest - HomePage test passed - arrived at HomePage with status code 200
+00:43:54.979 [main] INFO  tests.TestCasesPageTest - Home page is visible, test passed.
+00:43:54.981 [main] INFO  tests.TestCasesPageTest - Starting TestCasePage test
+00:43:54.985 [main] INFO  tests.ContactUsFormPageTest - Home Page URL is correct - https://automationexercise.com/
+00:43:56.751 [main] INFO  tests.ContactUsFormPageTest - Test Case Page URL is correct - https://automationexercise.com/test_cases
+00:43:57.517 [main] INFO  tests.TestCasesPageTest - TestCasePage test passed - arrived at TestCasePage
+00:43:57.524 [main] INFO  tests.ProductQuantityinCartTest - Opening the HomePage
+00:43:59.218 [main] INFO  tests.ProductQuantityinCartTest - HomePage test passed - arrived at HomePage with status code 200
+00:43:59.247 [main] INFO  tests.ProductQuantityinCartTest - Home page is visible, test passed.
+00:44:01.142 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in Product Details page
+00:44:01.154 [main] INFO  tests.ProductQuantityinCartTest - Increasing product quantity to: 4
+00:44:01.271 [main] INFO  tests.ProductQuantityinCartTest - Getting product quantity
+00:44:01.294 [main] INFO  tests.ProductQuantityinCartTest - Clicking on Add to Cart button
+00:44:01.355 [main] INFO  tests.ProductQuantityinCartTest - Clicking on View Cart button
+00:44:03.309 [main] INFO  tests.ProductQuantityinCartTest - Verifying that driver is in View Cart page
+00:44:03.324 [main] INFO  tests.ProductQuantityinCartTest - Getting item name
+00:44:03.352 [main] INFO  tests.ProductQuantityinCartTest - Getting item description
+00:44:03.372 [main] INFO  tests.ProductQuantityinCartTest - Getting cart quantity
+00:44:03.394 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the HomePage
+00:44:05.032 [main] INFO  tests.SearchAndVerifyAfterLoginTest - HomePage test passed - arrived at HomePage with status code 200
+00:44:05.061 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Home page is visible, test passed.
+00:44:08.807 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page is visible, test passed.
+00:44:08.835 [main] INFO  tests.SearchAndVerifyAfterLoginTest - All products text are visible, test passed.
+00:44:08.842 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Products page URL is correct, test passed.
+00:44:12.343 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Searched products are visible, test passed.
+00:44:14.657 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Madame Top For Women
+00:44:16.726 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product added to cart- Lace Top For Women
+00:44:21.172 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart, test passed.
+00:44:21.204 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Opening the LoginPage
+00:44:22.248 [main] INFO  tests.SearchAndVerifyAfterLoginTest - LoginPage test passed - arrived at LoginPage
+00:44:24.709 [main] INFO  tests.SearchAndVerifyAfterLoginTest - Product is in cart after login, test passed.
+00:44:24.713 [main] INFO  tests.ScrollUpAndDownTest - Opening the HomePage
+00:44:26.305 [main] INFO  tests.ScrollUpAndDownTest - HomePage test passed - arrived at HomePage with status code 200
+00:44:26.337 [main] INFO  tests.ScrollUpAndDownTest - Home page is visible, test passed.
+00:44:26.379 [main] INFO  tests.ScrollUpAndDownTest - Subscription is visible, test passed.
+00:44:31.461 [main] INFO  tests.ScrollUpAndDownTest - top arrow is clicked.
+00:44:31.480 [main] INFO  tests.ScrollUpAndDownTest - top image is visible.11
+00:44:31.483 [main] INFO  tests.ScrollUpAndDownTest - Back to top scroll test, test passed.
+00:44:31.509 [main] INFO  tests.ScrollUpAndDownTest - Main text is visible, test passed.

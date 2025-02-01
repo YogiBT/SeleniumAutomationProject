@@ -47,7 +47,7 @@ public class SearchAndVerifyAfterLoginTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression,testScenario13"})
+    @Test(priority = 1,description = "testing the home page arrival", groups = {"regression","testScenario20"})
     public void homePage() throws Exception {
         logger.info("Opening the HomePage");
         String url = actions.ariveAtHomePage();
@@ -63,7 +63,7 @@ public class SearchAndVerifyAfterLoginTest {
     @Step("Verify home page")
     @Description("Test to verify the home page is visible")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 2, description = "testing the Home page", groups = {"smoke"},dependsOnMethods = "homePage")
+    @Test(priority = 2, description = "testing the Home page", groups = {"testScenario20"},dependsOnMethods = "homePage")
     public void verifyHomePage() {
         boolean result = actions.verifyHomePage();
         if (result) {
@@ -77,7 +77,14 @@ public class SearchAndVerifyAfterLoginTest {
     /**
      * Tests the products page arrival.
      */
-    @Test(dependsOnMethods = "verifyHomePage",priority = 3)
+    @Feature("Search product and verify cart after login")
+    @Story("Enter products page")
+    @Description("Test to verify the products page")
+    @Tag("searchProduct")
+    @Owner("Yogev Orenshtein")
+    @Severity(SeverityLevel.CRITICAL)
+    @Step("Enter contact us page")
+    @Test(dependsOnMethods = "verifyHomePage",priority = 3,description = "testing the products page arrival", groups = {"regression,testScenario20"})
     public void verifyProductsPage() {
         actions.navigateToProducts();
         Assert.assertTrue(actions.verifyProductsPage());
@@ -88,7 +95,14 @@ public class SearchAndVerifyAfterLoginTest {
     /**
      * Tests the products page URL.
      */
-    @Test(dependsOnMethods = "verifyProductsPage",priority = 4)
+    @Feature("Search product and verify cart after login")
+    @Story("Enter products page")
+    @Description("Test to verify the products page URL")
+    @Tag("searchProduct")
+    @Owner("Yogev Orenshtein")
+    @Severity(SeverityLevel.NORMAL)
+    @Step("Enter contact us page 2")
+    @Test(dependsOnMethods = "verifyProductsPage",priority = 4,description = "testing the products page URL", groups = {"regression","testScenario20"})
     public void verifyProductsPageURL() {
         Assert.assertEquals(actions.verifyProductsPageURL(), "https://automationexercise.com/products");
         logger.info("Products page URL is correct, test passed.");
@@ -98,7 +112,14 @@ public class SearchAndVerifyAfterLoginTest {
     /**
      * Tests the searched products.
      */
-    @Test(dependsOnMethods = "verifyProductsPageURL",priority = 5)
+    @Feature("Search product and verify cart after login")
+    @Story("Search products")
+    @Description("Test to verify the searched products")
+    @Tag("searchProduct")
+    @Owner("Yogev Orenshtein")
+    @Severity(SeverityLevel.NORMAL)
+    @Step("Enter contact us page URL")
+    @Test(dependsOnMethods = "verifyProductsPageURL",priority = 5,description = "testing the searched products", groups = {"regression","testScenario20"})
     public void verifySearchedProducts(){
         actions.searchProduct("women");
         Assert.assertTrue(actions.isSearchedProductsVisible());
@@ -110,7 +131,14 @@ public class SearchAndVerifyAfterLoginTest {
     /**
      * Tests the product in cart.
      */
-    @Test(dependsOnMethods = "verifySearchedProducts",priority = 6)
+    @Feature("Search product and verify cart after login")
+    @Story("Add product to cart")
+    @Description("Test to verify the product in cart")
+    @Tag("searchProduct")
+    @Owner("Yogev Orenshtein")
+    @Severity(SeverityLevel.BLOCKER)
+    @Step("verify in cart")
+    @Test(dependsOnMethods = "verifySearchedProducts",priority = 6,description = "testing the product in cart", groups = {"regression","testScenario20"})
     public void verifyProductInCart(){
         actions.addProductToCart();
 
@@ -118,16 +146,20 @@ public class SearchAndVerifyAfterLoginTest {
         logger.info("Product is in cart, test passed.");
     }
 
-    @Test(dependsOnMethods = "verifyProductInCart",priority = 7)
+
+    /**
+     * Tests the product in cart after login.
+     */
+    @Feature("Search product and verify cart after login")
+    @Story("Add product to cart")
+    @Description("Test to verify the product in cart after login")
+    @Tag("searchProduct")
+    @Owner("Yogev Orenshtein")
+    @Severity(SeverityLevel.BLOCKER)
+    @Step("verify in cart after login")
+    @Test(dependsOnMethods = "verifyProductInCart",priority = 7,description = "testing the product in cart after login", groups = {"regression","testScenario20"})
     public void verifyProductAfterLogin() {
-        /*
-        String email = JsonUtils.readJsonFromFile("email");
-        String password = JsonUtils.readJsonFromFile("password");
 
-         */
-
-        //String email = "jonsnow@gmail.com";
-        //String password = "testCase20";
 
         String email = (String) new utils.readFromExcel().getData()[0][1];
         String password =(String) new utils.readFromExcel().getData()[0][6];
