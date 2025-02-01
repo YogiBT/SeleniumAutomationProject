@@ -110,6 +110,7 @@ public class BasePage {
         return connection.getResponseCode();
     }
     public String getCurrentUrl() {
+
         return driver.getCurrentUrl();
     }
     public void testPageLoadStatus() {

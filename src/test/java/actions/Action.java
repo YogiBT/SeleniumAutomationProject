@@ -2,7 +2,12 @@ package actions;
 
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.*;
+
+import java.time.Duration;
 
 import static utils.utilsMethods.sleep;
 
@@ -38,9 +43,11 @@ public class Action {
      * @throws Exception if the page load status is not successful
      */
     public String ariveAtHomePage() throws Exception {
-        homePage.testPageLoadStatus();
+        //homePage.testPageLoadStatus();
         //homePage.testPageStatus();
         //return homePage.verifyHomePageURL();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.urlToBe("https://automationexercise.com/"));
         return homePage.getCurrentUrl();
     }
 

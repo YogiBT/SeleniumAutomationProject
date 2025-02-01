@@ -9,10 +9,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import utils.readFromExcel;
+import utils.GenerateDriverAllSingleton;
 
 @Epic("Test Cases Page - Test Scenario #7")
 public class TestCasesPageTest {
@@ -31,8 +30,15 @@ public class TestCasesPageTest {
     public void setUp() {
         String URL = JsonUtils.readJsonFromFile("url");
         String BROWSER = JsonUtils.readJsonFromFile("browser");
-        driver = GenerateDriverAll.initDriver(BROWSER, URL);
+
+        driver = GenerateDriverAllSingleton.getDriver(BROWSER, URL);
+        //driver.get(URL);
+
+        //driver = GenerateDriverAll.initDriver(BROWSER, URL);
+
         actions = new Action(driver);
+
+
         logger.info("WebDriver setup complete: {}, {}", BROWSER, URL);
     }
 
@@ -82,12 +88,30 @@ public class TestCasesPageTest {
         //Assert.assertEquals(actions.getStatusCode_testCasePage(),200);
         logger.info("TestCasePage test passed - arrived at TestCasePage");
     }
+
+
+
+
+    /**
+     * Tests the cart details after removing.
+     */
+    @AfterClass(alwaysRun = true)
+    public void goBackToHomePage() {
+        driver.get("https://automationexercise.com/");
+
+    }
+
     /**
      * Cleans up the test environment by quitting the WebDriver.
      */
+    //@AfterSuite(alwaysRun = true)
     @AfterSuite(alwaysRun = true)
     public void tearDown() {
-        GenerateDriverAll.cleanDriver(driver);
+        logger.info("WebDriver teardown starting...");
+        //GenerateDriverAll.cleanDriver(driver);
+        //driver.get("https://automationexercise.com/");
+        GenerateDriverAllSingleton.quitDriver();
+        logger.info("WebDriver teardown complete.");
     }
 
 

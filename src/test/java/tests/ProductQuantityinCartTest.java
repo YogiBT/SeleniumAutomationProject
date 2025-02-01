@@ -9,9 +9,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
+import utils.GenerateDriverAllSingleton;
 
 @Epic("Product Quantity in Cart - Test Scenario #13")
 public class ProductQuantityinCartTest {
@@ -30,7 +32,9 @@ public class ProductQuantityinCartTest {
     public void setUp() {
         String URL = JsonUtils.readJsonFromFile("url");
         String BROWSER = JsonUtils.readJsonFromFile("browser");
-        driver = GenerateDriverAll.initDriver(BROWSER, URL);
+        //driver = GenerateDriverAll.initDriver(BROWSER, URL);
+        driver = GenerateDriverAllSingleton.getDriver(BROWSER, URL);
+        //driver.get(URL);
         actions = new Action(driver);
         logger.info("WebDriver setup complete: {}, {}", BROWSER, URL);
     }
@@ -146,12 +150,23 @@ public class ProductQuantityinCartTest {
         Assert.assertEquals(actions.getCartQuantity(),4);
     }
 
+
+    /**
+     * Tests the cart details after removing.
+     */
+    @AfterClass(alwaysRun = true)
+    public void goBackToHomePage() {
+        driver.get("https://automationexercise.com/");
+
+    }
     /**
      * Cleans up the test environment by quitting the WebDriver.
      */
     @AfterSuite(alwaysRun = true)
     public void tearDown() {
-        GenerateDriverAll.cleanDriver(driver);
+        //driver.get("https://automationexercise.com/");
+        //GenerateDriverAll.cleanDriver(driver);
+        GenerateDriverAllSingleton.quitDriver();
     }
 
 

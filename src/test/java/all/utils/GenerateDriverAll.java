@@ -11,6 +11,9 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 
 public class GenerateDriverAll {
+
+    //private static WebDriver driver;
+
     public static WebDriver initDriver(String browserType, String url) {
 
         WebDriver driver = switch (browserType.toLowerCase()) {

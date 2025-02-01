@@ -4,10 +4,11 @@
         <groups>
             <run>
                 <include name="testCase6"/>
-                <include name="testCase7"/>
+
                 <include name="testScenario13"/>
                 <include name="testScenario20"/>
                 <include name="testScenario25"/>
+                <include name="testCase7"/>
             </run>
         </groups>
         <classes>
