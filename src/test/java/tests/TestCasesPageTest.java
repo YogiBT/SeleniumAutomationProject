@@ -9,7 +9,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
+import utils.ScreenshotUtil;
 import utils.readFromExcel;
 import utils.GenerateDriverAllSingleton;
 
@@ -42,6 +44,14 @@ public class TestCasesPageTest {
         logger.info("WebDriver setup complete: {}, {}", BROWSER, URL);
     }
 
+    /**
+     * Reset to home page.
+     */
+    @BeforeClass(alwaysRun = true)
+    public void goBackToHomePage() {
+        driver.get("https://automationexercise.com/");
+
+    }
     /**
      * Tests the home page arrival.
      */
@@ -90,17 +100,19 @@ public class TestCasesPageTest {
     }
 
 
-
-
     /**
-     * Tests the cart details after removing.
+     * Take a screenshot of the test.
      */
-    @AfterClass(alwaysRun = true)
-    public void goBackToHomePage() {
-        driver.get("https://automationexercise.com/");
+    @AfterMethod(alwaysRun = true)
+    public void takeScreenshot(ITestResult result) {
+        String testName = result.getMethod().getMethodName();
+        String testPriority = result.getMethod().getPriority() + "";
+        String currentDate = java.time.LocalDate.now().toString();
+        String currentTime = java.time.LocalTime.now().toString();
+        String BROWSER = JsonUtils.readJsonFromFile("browser");
+        ScreenshotUtil.takeScreenshot(driver, "screenshots/test_case_7/"+BROWSER +"/"+currentDate+"/" + testPriority + "_" + testName +"_" + currentTime + ".png");
 
     }
-
     /**
      * Cleans up the test environment by quitting the WebDriver.
      */

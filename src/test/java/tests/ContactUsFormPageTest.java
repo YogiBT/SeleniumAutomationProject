@@ -9,8 +9,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 import utils.GenerateDriverAllSingleton;
+import utils.ScreenshotUtil;
 import utils.readFromExcel;
 
 
@@ -38,6 +40,14 @@ public class ContactUsFormPageTest {
         logger.info("WebDriver setup complete: {}, {}", BROWSER, URL);
     }
 
+    /**
+     * Reset to home page.
+     */
+    @BeforeClass(alwaysRun = true)
+    public void goBackToHomePage() {
+        driver.get("https://automationexercise.com/");
+
+    }
     /**
      * Tests the home page arrival.
      */
@@ -92,7 +102,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(dependsOnMethods = "verifyHomePage", groups = {"testCase6","regression"},description = "testing the arrival to test case page")
+    @Test(dependsOnMethods = "verifyHomePage", groups = {"testCase6","regression"},description = "testing the arrival to test case page",priority = 3)
     public void ArriveAtContactUsPage() {
         logger.info("Starting the ContactUsPage test");
         Assert.assertTrue(actions.ariveAtContactUsPage(),"ContactUsPage test failed - did not arrive at ContactUsPage");
@@ -114,7 +124,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Verify Get In Touch Visible")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "ArriveAtContactUsPage", groups = {"testCase6","regression"},description = "testing the GET IN TOUCH visible")
+    @Test(dependsOnMethods = "ArriveAtContactUsPage", groups = {"testCase6","regression"},description = "testing the GET IN TOUCH visible",priority = 4)
     public void verifyGetInTouchVisible() {
         logger.info("Starting the GET IN TOUCH visible test");
         Assert.assertEquals(actions.getInTouchVisible(),"GET IN TOUCH");
@@ -139,7 +149,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page and verify success message")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "verifyGetInTouchVisible",dataProvider = "excelData",dataProviderClass = readFromExcel.class,description = "testing the contact us page arrival", groups = {"testCase6"})
+    @Test(dependsOnMethods = "verifyGetInTouchVisible",dataProvider = "excelData",dataProviderClass = readFromExcel.class,description = "testing the contact us page arrival", groups = {"testCase6"},priority = 5)
     public void verifySuccessMessage(String name,String email,String subject,String message,String file,String userName,String password) throws InterruptedException {
         logger.info("Stating to fill details in the contact us page");
         actions.enterDetailsInContactUsPage(name,email,subject,message,file);
@@ -161,7 +171,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Go back home after success")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "verifySuccessMessage",description = "testing the go back home after success", groups = {"testCase6"})
+    @Test(dependsOnMethods = "verifySuccessMessage",description = "testing the go back home after success", groups = {"testCase6"},priority = 6)
     public void goBackHome() {
         logger.info("Starting the go back home test");
         actions.goBackHome();
@@ -170,11 +180,17 @@ public class ContactUsFormPageTest {
     }
 
     /**
-     * Tests the cart details after removing.
+     * Take a screenshot of the test.
      */
-    @AfterClass(alwaysRun = true)
-    public void goBackToHomePage() {
-        driver.get("https://automationexercise.com/");
+    @AfterMethod(alwaysRun = true)
+    public void takeScreenshot(ITestResult result) {
+        String testName = result.getMethod().getMethodName();
+        String testPriority = result.getMethod().getPriority() + "";
+        String currentDate = java.time.LocalDate.now().toString();
+        String currentTime = java.time.LocalTime.now().toString();
+        String BROWSER = JsonUtils.readJsonFromFile("browser");
+
+        ScreenshotUtil.takeScreenshot(driver, "screenshots/test_case_6/"+BROWSER +"/"+currentDate+"/" + testPriority + "_" + testName +"_" + currentTime + ".png");
 
     }
     /**

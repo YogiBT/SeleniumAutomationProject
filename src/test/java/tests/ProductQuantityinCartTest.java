@@ -9,11 +9,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import utils.GenerateDriverAllSingleton;
+import utils.ScreenshotUtil;
 
 @Epic("Product Quantity in Cart - Test Scenario #13")
 public class ProductQuantityinCartTest {
@@ -39,6 +38,16 @@ public class ProductQuantityinCartTest {
         logger.info("WebDriver setup complete: {}, {}", BROWSER, URL);
     }
 
+    /**
+     * Reset to home page.
+     */
+    @BeforeClass(alwaysRun = true)
+    public void goBackToHomePage() {
+        driver.manage().deleteAllCookies();
+        driver.get("https://automationexercise.com/");
+
+
+    }
     /**
      * Tests the home page arrival.
 
@@ -86,7 +95,7 @@ public class ProductQuantityinCartTest {
     @Step("Verify product details URL")
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://automationexercise.com/product_details/1")
-    @Test(dependsOnMethods = "verifyHomePage",groups = {"testScenario13"},description = "testing the product details URL")
+    @Test(dependsOnMethods = "verifyHomePage",groups = {"testScenario13"},description = "testing the product details URL",priority = 3)
     public void verifyProductDetailsURL() {
         actions.clickViewProduct();
         Assert.assertEquals(actions.verifyProductDetailsURL(),"https://automationexercise.com/product_details/1");
@@ -100,7 +109,7 @@ public class ProductQuantityinCartTest {
     @Step("Verify product details")
     @Severity(SeverityLevel.NORMAL)
     @Link("https://automationexercise.com/product_details/1")
-    @Test(dependsOnMethods = "verifyProductDetailsURL",groups = {"testScenario13"},description = "testing the product details")
+    @Test(dependsOnMethods = "verifyProductDetailsURL",groups = {"testScenario13"},description = "testing the product details",priority = 4)
     public void verifyProductDetails() {
         Assert.assertTrue(actions.verifyProductDetails());
     }
@@ -112,7 +121,7 @@ public class ProductQuantityinCartTest {
     @Description("Test to verify the initial quantity")
     @Step("Verify initial quantity")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "verifyProductDetails",groups = {"testScenario13"},description = "testing the initial quantity")
+    @Test(dependsOnMethods = "verifyProductDetails",groups = {"testScenario13"},description = "testing the initial quantity",priority = 5)
     public void verifyInitialQuantity() {
         actions.increaseProductQuantity(4);
         Assert.assertEquals(actions.getQuantity(),4);
@@ -127,7 +136,7 @@ public class ProductQuantityinCartTest {
     @Step("Verify view cart")
     @Severity(SeverityLevel.NORMAL)
     @Link("https://automationexercise.com/view_cart")
-    @Test(dependsOnMethods = "verifyInitialQuantity",groups = {"testScenario13"},description = "testing the view cart")
+    @Test(dependsOnMethods = "verifyInitialQuantity",groups = {"testScenario13"},description = "testing the view cart",priority = 6)
     public void verifyViewCart() {
         actions.addToCart();
         Assert.assertTrue(actions.verifyViewCart());
@@ -142,7 +151,7 @@ public class ProductQuantityinCartTest {
     @Severity(SeverityLevel.NORMAL)
     @Link("https://automationexercise.com/view_cart")
     @Tag("cartDetails")
-    @Test(dependsOnMethods = "verifyViewCart",groups = {"testScenario13"},description = "testing the cart details after adding")
+    @Test(dependsOnMethods = "verifyViewCart",groups = {"testScenario13"},description = "testing the cart details after adding",priority = 7)
     public void verifyCartDetailsAfterAdding() {
 
         Assert.assertEquals(actions.getItemName(),"Blue Top");
@@ -150,13 +159,18 @@ public class ProductQuantityinCartTest {
         Assert.assertEquals(actions.getCartQuantity(),4);
     }
 
-
     /**
-     * Tests the cart details after removing.
+     * Take a screenshot of the test.
      */
-    @AfterClass(alwaysRun = true)
-    public void goBackToHomePage() {
-        driver.get("https://automationexercise.com/");
+    @AfterMethod(alwaysRun = true)
+    public void takeScreenshot(ITestResult result) {
+        String testName = result.getMethod().getMethodName();
+        String testPriority = result.getMethod().getPriority() + "";
+        String currentDate = java.time.LocalDate.now().toString();
+        String currentTime = java.time.LocalTime.now().toString();
+        String BROWSER = JsonUtils.readJsonFromFile("browser");
+
+        ScreenshotUtil.takeScreenshot(driver, "screenshots/test_case_13/"+BROWSER +"/"+currentDate+"/" + testPriority + "_" + testName +"_" + currentTime + ".png");
 
     }
     /**
