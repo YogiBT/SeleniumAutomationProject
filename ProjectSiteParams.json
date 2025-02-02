@@ -1,6 +1,6 @@
 {
   "url": "https://automationexercise.com/",
-  "browser": "edge",
+  "browser": "chrome",
   "url_form_validation": "https://practice.expandtesting.com/form-validation",
   "url_for_subscription": "https://automationexercise.com/"
 }

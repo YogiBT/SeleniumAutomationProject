@@ -95,7 +95,7 @@ public class ProductQuantityinCartTest {
     @Step("Verify product details URL")
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://automationexercise.com/product_details/1")
-    @Test(dependsOnMethods = "verifyHomePage",groups = {"testScenario13"},description = "testing the product details URL",priority = 3)
+    @Test(dependsOnMethods = "verifyHomePage",groups = {"testScenario13","regression"},description = "testing the product details URL",priority = 3)
     public void verifyProductDetailsURL() {
         actions.clickViewProduct();
         Assert.assertEquals(actions.verifyProductDetailsURL(),"https://automationexercise.com/product_details/1");
@@ -109,7 +109,7 @@ public class ProductQuantityinCartTest {
     @Step("Verify product details")
     @Severity(SeverityLevel.NORMAL)
     @Link("https://automationexercise.com/product_details/1")
-    @Test(dependsOnMethods = "verifyProductDetailsURL",groups = {"testScenario13"},description = "testing the product details",priority = 4)
+    @Test(dependsOnMethods = "verifyProductDetailsURL",groups = {"testScenario13","regression"},description = "testing the product details",priority = 4)
     public void verifyProductDetails() {
         Assert.assertTrue(actions.verifyProductDetails());
     }
@@ -121,7 +121,7 @@ public class ProductQuantityinCartTest {
     @Description("Test to verify the initial quantity")
     @Step("Verify initial quantity")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "verifyProductDetails",groups = {"testScenario13"},description = "testing the initial quantity",priority = 5)
+    @Test(dependsOnMethods = "verifyProductDetails",groups = {"testScenario13","regression"},description = "testing the initial quantity",priority = 5)
     public void verifyInitialQuantity() {
         actions.increaseProductQuantity(4);
         Assert.assertEquals(actions.getQuantity(),4);
@@ -136,7 +136,7 @@ public class ProductQuantityinCartTest {
     @Step("Verify view cart")
     @Severity(SeverityLevel.NORMAL)
     @Link("https://automationexercise.com/view_cart")
-    @Test(dependsOnMethods = "verifyInitialQuantity",groups = {"testScenario13"},description = "testing the view cart",priority = 6)
+    @Test(dependsOnMethods = "verifyInitialQuantity",groups = {"testScenario13","regression"},description = "testing the view cart",priority = 6)
     public void verifyViewCart() {
         actions.addToCart();
         Assert.assertTrue(actions.verifyViewCart());
@@ -151,7 +151,7 @@ public class ProductQuantityinCartTest {
     @Severity(SeverityLevel.NORMAL)
     @Link("https://automationexercise.com/view_cart")
     @Tag("cartDetails")
-    @Test(dependsOnMethods = "verifyViewCart",groups = {"testScenario13"},description = "testing the cart details after adding",priority = 7)
+    @Test(dependsOnMethods = "verifyViewCart",groups = {"testScenario13","regression"},description = "testing the cart details after adding",priority = 7)
     public void verifyCartDetailsAfterAdding() {
 
         Assert.assertEquals(actions.getItemName(),"Blue Top");

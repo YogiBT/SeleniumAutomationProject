@@ -3,6 +3,8 @@ package tests;
 import actions.Action;
 import all.utils.GenerateDriverAll;
 import all.utils.JsonUtils;
+import com.automation.remarks.testng.UniversalVideoListener;
+import com.automation.remarks.video.annotations.Video;
 import io.qameta.allure.*;
 import io.qameta.allure.testng.Tag;
 import org.apache.logging.log4j.LogManager;
@@ -15,7 +17,10 @@ import utils.ScreenshotUtil;
 import utils.readFromExcel;
 import utils.GenerateDriverAllSingleton;
 
+import static utils.utilsMethods.sleep;
+
 @Epic("Test Cases Page - Test Scenario #7")
+@Listeners(UniversalVideoListener.class)
 public class TestCasesPageTest {
 
     public static final Logger logger = LogManager.getLogger(TestCasesPageTest.class);
@@ -55,7 +60,7 @@ public class TestCasesPageTest {
     /**
      * Tests the home page arrival.
      */
-
+    @Video
     @Test(priority = 1,description = "testing the home page arrival", groups = {"regression","testCase7"})
     public void homePage() throws Exception {
         logger.info("Opening the HomePage");
@@ -67,7 +72,8 @@ public class TestCasesPageTest {
     /**
      * Testing Verify that home page is visible successfully.
      */
-    @Test(priority = 2, description = "testing the Home page", groups = {"testCase7"},dependsOnMethods = "homePage")
+    @Video
+    @Test(priority = 2, description = "testing the Home page", groups = {"testCase7","regression"},dependsOnMethods = "homePage")
     public void verifyHomePage() {
         boolean result = actions.verifyHomePage();
         if (result) {
@@ -91,12 +97,16 @@ public class TestCasesPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page")
     @Severity(SeverityLevel.CRITICAL)
+    @Video
     @Test(description = "testing the arrival to test case page", groups = {"testCase7","regression"},dependsOnMethods = "verifyHomePage")
     public void testCasePage() {
+
         logger.info("Starting TestCasePage test");
         assert actions.ariveAtTestCasePage();
         //Assert.assertEquals(actions.getStatusCode_testCasePage(),200);
         logger.info("TestCasePage test passed - arrived at TestCasePage");
+
+
     }
 
 

@@ -78,7 +78,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 2, description = "testing the Home page", groups = {"testCase6"},dependsOnMethods = "homePage")
+    @Test(priority = 2, description = "testing the Home page", groups = {"testCase6","regression"},dependsOnMethods = "homePage")
     public void verifyHomePage() {
         boolean result = actions.verifyHomePage();
         if (result) {
@@ -149,7 +149,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Enter contact us page and verify success message")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "verifyGetInTouchVisible",dataProvider = "excelData",dataProviderClass = readFromExcel.class,description = "testing the contact us page arrival", groups = {"testCase6"},priority = 5)
+    @Test(dependsOnMethods = "verifyGetInTouchVisible",dataProvider = "excelData",dataProviderClass = readFromExcel.class,description = "testing the contact us page arrival", groups = {"testCase6","regression"},priority = 5)
     public void verifySuccessMessage(String name,String email,String subject,String message,String file,String userName,String password) throws InterruptedException {
         logger.info("Stating to fill details in the contact us page");
         actions.enterDetailsInContactUsPage(name,email,subject,message,file);
@@ -171,7 +171,7 @@ public class ContactUsFormPageTest {
     @Owner("Yogev Orenshtein")
     @Step("Go back home after success")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dependsOnMethods = "verifySuccessMessage",description = "testing the go back home after success", groups = {"testCase6"},priority = 6)
+    @Test(dependsOnMethods = "verifySuccessMessage",description = "testing the go back home after success", groups = {"testCase6","regression"},priority = 6)
     public void goBackHome() {
         logger.info("Starting the go back home test");
         actions.goBackHome();

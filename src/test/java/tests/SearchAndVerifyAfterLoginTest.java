@@ -75,7 +75,7 @@ public class SearchAndVerifyAfterLoginTest {
     @Step("Verify home page")
     @Description("Test to verify the home page is visible")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 2, description = "testing the Home page", groups = {"testScenario20"},dependsOnMethods = "homePage")
+    @Test(priority = 2, description = "testing the Home page", groups = {"testScenario20","regression"},dependsOnMethods = "homePage")
     public void verifyHomePage() {
         boolean result = actions.verifyHomePage();
         if (result) {
