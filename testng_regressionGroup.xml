@@ -8,6 +8,10 @@
         </groups>
         <packages>
             <package name="tests.ContactUsFormPageTest"/>
+            <package name="tests.TestCasesPageTest"/>
+            <package name="tests.ProductQuantityinCartTest"/>
+            <package name="tests.SearchAndVerifyAfterLoginTest"/>
+            <package name="tests.ScrollUpAndDownTest"/>
         </packages>
     </test>
 </suite>
